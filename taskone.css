@@ -1,0 +1,41 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div{
+    width: 31%;
+    height: 31%;
+    background: yellow;
+    margin: 0.85%;  
+    border-radius: 3%; 
+    padding-top: 31%
+}
+
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine{
+    float: left;
+}
+.one,
+.two,
+.three{
+    margin-top: 1.7%;
+}
+.seven,
+.eight,
+.nine{
+    margin-bottom: 1.7%;
+}
+.one,
+.four,
+.seven{
+    margin-left: 1.7%; 
+}
