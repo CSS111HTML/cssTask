@@ -1,0 +1,68 @@
+html,
+body,
+p,
+div {
+margin: 0;
+padding: 0;
+border: 0 ;
+}
+.main { 
+    width: 100%;
+    background-color: rgb(104,205,213);  
+}
+.return-pic {
+    width: 54px;
+    height: 54px;
+    padding : 19px 0 0 32px;
+}
+.logo1 {
+    width: 184px;
+    height: 74px;
+    margin:0 auto;
+    padding-top : 40px;
+}
+.centent {
+    padding-top: 112px;
+    padding-bottom:178px;
+}
+.logo2 {
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+    padding-left: 20%;
+
+}
+.logo3 {
+    float: right;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    padding-right: 20%; 
+}
+.text1 {
+    width: 70%;
+    height: 20%;
+    margin: 0 auto;
+    font: "Microsoft Yahei";
+    color: white;
+    font-size: 29px;
+}
+.footer { 
+    padding-top: 24px;
+    padding-bottom: 30%
+}
+.text2,
+.text3 {
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+    color: white;
+    font-size: 28px;
+}
+.text2 {
+    padding-left: 16.5%;
+}
+.text3 {
+    float: right;
+    padding-right: 20%;  
+}
