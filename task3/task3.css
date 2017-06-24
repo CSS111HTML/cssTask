@@ -1,0 +1,91 @@
+html,
+body,
+p,
+div {
+margin: 0;
+padding: 0;
+border: 0 ;
+}
+body{
+   background-color: rgb(104,205,213); 
+}
+.container{ 
+    width: 100%;
+    background-color: rgb(104,205,213);  
+}
+.return-btn {
+    width: 27px;
+    height: 27px;
+    padding : 19px 0 0 32px;
+}
+.main-logo {
+    width: 92px;
+    height:37px;
+    margin:0 auto;
+    padding-top : 20px;
+    display: block;
+}
+.centent {
+    padding-top: 60px;
+    padding-bottom:89px;
+    margin: 0 auto;
+        display: flex;
+    justify-content: center;
+}
+.text-content {
+    width: 70%;
+    height: 20%;
+    color: white;
+    font-size: 14.5px;
+
+    
+}
+.left{
+display: inline-block;
+height: 60px;
+width: 49%;
+margin: 0 auto;
+}
+.right{
+display: inline-block;   
+height: 60px;
+width: 49%;
+margin: 0 auto;
+}
+.left-group {
+height: 60px;
+width: 50%;
+margin: 0 auto;
+display: block;
+}
+.right-address {
+height: 60px;
+width: 50%;
+margin: 0 auto;
+display: block;
+}
+.logo-group-btn { 
+    width: 43px;
+    height: 43px;
+    margin: 0 auto;
+    display: block;
+   
+}
+.logo-address-btn {
+    margin: 0 auto;
+    width: 43px;
+    height: 43px;
+    display: block;
+}
+
+
+.text-group,
+.text-address {
+    margin: 0 auto;
+    width: 75px;
+    height: 14px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top:10px; 
+}
