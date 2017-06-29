@@ -1,0 +1,182 @@
+html,
+body,
+p,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+html {
+    font-size: 62.5%;
+}
+.main{
+    width: 100%;
+    height: 40rem;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    height:5rem;
+    line-height: 5rem;
+    font-size: 0;
+    background: rgb(95, 192, 205);
+}
+.header img{
+    vertical-align: middle;
+    display: inline-block;
+    padding-left: 1.75rem;
+    height: 1.75rem;
+}
+.header p{
+position: absolute;
+margin-top: -2.5rem;
+margin-left: -3rem;
+display: inline-block;
+font-size: 1.5rem;
+color: white;
+top: 50%;
+left: 50%;
+}
+
+/******header end******/
+
+.middle {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    width: 100%;
+    height:16.5rem;
+    background: url(task5-2.png) no-repeat ;
+    background-size: 100% 16.5rem;
+}
+.eight{
+    display: inline-block;
+    width: 10rem;
+    height: 15.5rem;
+    background: url(task5-3.png) no-repeat center ;
+    background-size: auto 8.5rem;  
+}
+.address img{
+    height: 1.1rem;
+}
+.text{
+    width: 11.5rem;
+    height:5rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+.name{
+    font-size: 1.5rem;
+    width: 9.5rem;
+    height: 2.5rem;
+    color: white;
+    
+}
+.address{
+    font-size: 1.2rem;
+    width: 9.5rem;
+    height: 2.5rem;
+    color: white;
+    
+}
+.one,
+.two,
+.three,
+.four,
+.five{
+    width: 100%;
+    height: 5rem;
+    border-bottom: solid gray 1px;
+    line-height: 5rem;
+}
+
+.one p{
+    color: rgb(95, 192, 205);
+    font-size:1.5rem;
+    margin-left: 1.25rem;
+}
+
+.star1 {
+margin-left: 3rem;
+height: 1.3rem;
+}
+.two p{
+    display:inline-block;
+    font-size: 1.5rem;
+}
+.star2{
+    padding-left: 1.5rem;
+    height: 1.3rem;
+}
+.time1,
+.time3,
+.time5
+{
+    font-size:1.41rem;
+    padding-left: 3rem;
+    color: gray;
+}
+.time2,
+.time4{
+    font-size:1.41rem;
+}
+
+.time6{
+    font-size:1.41rem;
+    color: red;
+}
+.time8{
+    font-size:1.15rem;
+    display: inline-block;
+    width: 50%;
+    color: black;
+    vertical-align: middle;
+}
+.six {
+    width: 100%;
+    font-size:1.41rem;
+    padding-left: 3rem;
+    color: gray;
+    margin-top:1.5rem;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    position: fixed;
+    left:0;
+    bottom: 0.5rem;
+    width: 100%;
+    height: 7rem;
+    line-height: 0;
+
+}
+.message{
+    width: 43%;
+    height: 4.5rem;
+    border: solid 3px rgb(95, 192, 205);
+    background-color: white;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    color: rgb(95, 192, 205);
+    text-align: center;
+    float: left;
+    margin-left: 1.75rem;
+}
+.telephone{
+    width: 43%;
+    height: 4.5rem;
+    border: none;
+    border: solid 3px whitergb(95, 192, 205);
+    background-color: rgb(95, 192, 205);
+    border-radius: 15px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    float: right;
+    margin-right: 1.75rem;
+}
