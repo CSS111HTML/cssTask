@@ -64,9 +64,11 @@ input {
     width: 8rem; 
     height: 2.2rem;
     border:  0;
-    padding-left: 6rem; 
+    padding-left: 1.5rem; 
     font-size: 1rem;
-    vertical-align: middle;   
+    vertical-align: middle;  
+    border-left:solid rgb(239,240,244);
+    margin-left: 4.5rem; 
 }
 
 input:focus,
@@ -83,7 +85,7 @@ input:checked
     width: 1.5rem;
     height: 2.2rem;
     margin: 0 1.5rem;
-    border-right:solid rgb(239,240,244);
+    
 }
 .loginbar {
     width: 100%;
