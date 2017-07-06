@@ -1,30 +1,246 @@
 <!doctype html>
-<html>
-    <header>
-        <title>task6</title>
+<html lang="zh-cmn-Hans">
+    <head>
         <meta charset="utf-8">
-        
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="task6.css">
-        
-    </header>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+        <title>task6</title>
+    </head>
     <body>
-        <div class="header">
-            <div class="nav">
-                <button type="button" class="logo1" class="btn btn-primary">找雇主</button>
-                <button type="button" class="logo2" class="btn btn-info">护工</button>
-            </div>
-            <img class="logo3" src="task6-1.png">
-        </div>
         <div class="container">
+            
+            <div class="header-background navbar-fixed-top">
+                <div class=" group" role="group nav-button1">
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-push-3">
+                            <div class="btn-group center-block header-btn-group">
+                                <button type="button" class= "btn header-btn-left">找户主</button>
+                                <button type="button"  class="btn header-btn-right" >找雇工</button>
+                            </div>
+                        </div>
+                        <button class="col-xs-1 spritepic-4 col-xs-push-4"></button>  
+                    </div>
+                
+                </div>
+            </div>
+            
+                    <div class="row  menu1">
+                        <div class="btn-group col-xs-4">
+                            <button class=" btn text-muted list-of-head"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            所在地
+                                <span class="caret"></span>
+                            </button> 
+                                <ul class="dropdown-menu list-item text-muted">
+                                    <li class="text-center text-muted">福建</li>
+                                    <li class="text-center text-muted">河南</li>
+                                    <li class="text-center text-muted">四川</li>
+                                </ul>
+                        </div>
+
+                        <div class="btn-group col-xs-4">
+                            <button class=" btn text-muted list-of-head" id="option-2"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            食宿
+                                <span class="caret"></span>
+                            </button> 
+                                <ul class="dropdown-menu list-item text-muted" aria-labelledby="option-2">
+                                    <li class="text-center text-muted">包吃</li>
+                                    <li class="text-center text-muted">包住</li>
+                                    <li class="text-center text-muted">不包</li>
+                                </ul>
+                        </div>    
+                           
+                        <div class="btn-group col-xs-4">
+                            <button class=" text-muted btn list-of-head" id="option-3"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            病人情况
+                                <span class="caret"></span>
+                            </button> 
+                                <ul class="dropdown-menu list-item text-muted" aria-labelledby="option-3">
+                                    <li class="text-center text-muted ">优秀</li>
+                                    <li class="text-center text-muted">良好</li>
+                                    <li class="text-center text-muted">一般</li>
+                                
+                                </ul>
+                        </div>
+                    </div>
+
+                    
+                    
+                    <div class="content">
+                        <div class="row list1">
+                            <div class="col-xs-4 text-muted text-font1">
+                                <span class="spritepic-1"></span> 
+                                服 务 日 期
+                            </div>
+                        </div>
+                        <div class="row list2">
+                            <div class="col-xs-6 text-font2">
+                                2015-7-5至2015-7-12
+                            </div>
+                            <div class="col-xs-4  text-danger text-font3 pull-right text-center">
+                                35元/小时
+                                　<span class="spritepic-2"></span>
+                            </div>
+                        </div>
+                        <div class="row list3">
+                            <div class="col-xs-6 text-muted text-font4">
+                                <span class="spritepic-3"></span>
+                                北京.通州.果园
+                            </div>
+                        </div>
+
+                        <div class="row list1">
+                            <div class="col-xs-4 text-muted text-font1">
+                                <span class="spritepic-1 text-font1"></span> 
+                                服 务 日 期
+                            </div>
+                        </div>
+                        <div class="row list2">
+                            <div class="col-xs-6 text-font2">
+                                2015-7-5至2015-7-12
+                            </div>
+                            <div class="col-xs-4 pull-right text-danger text-font3 text-center">
+                                35元/小时
+                                　<span class="spritepic-2"></span>
+                            </div>
+                        </div>
+                        <div class="row list3">
+                            <div class="col-xs-6 text-muted text-font4">
+                                <span class="spritepic-3"></span>
+                                北京.通州.果园
+                            </div>
+                        </div>
+
+                        <div class="row list1">
+                            <div class="col-xs-4 text-muted text-font1">
+                                <span class="spritepic-1"></span> 
+                                服 务 日 期
+                            </div>
+                        </div>
+                        <div class="row list2">
+                            <div class="col-xs-6 text-font2">
+                                2015-7-5至2015-7-12
+                            </div>
+                            <div class="col-xs-4 pull-right text-danger text-font3 text-center">
+                                45元/小时
+                                　<span class="spritepic-2"></span>
+                            </div>
+                        </div>
+                        <div class="row list3">
+                            <div class="col-xs-6 text-muted text-font4">
+                                <span class="spritepic-3"></span>
+                                北京.通州.果园
+                            </div>
+                        </div>
+
+                        <div class="row list1">
+                            <div class="col-xs-4 text-muted text-font1">
+                                <span class="spritepic-1"></span> 
+                                服 务 日 期
+                            </div>
+                        </div>
+                        <div class="row list2">
+                            <div class="col-xs-6 text-font2">
+                                2015-7-5至2015-7-12
+                            </div>
+                            <div class="col-xs-4 pull-right text-danger text-font3 text-center">
+                                55元/小时
+                                　<span class="spritepic-2"></span>
+                            </div>
+                        </div>
+                        <div class="row list3">
+                            <div class="col-xs-6 text-muted text-font4">
+                                <span class="spritepic-3"></span>
+                                北京.通州.果园
+                            </div>
+                        </div>
+
+                        <div class="row list1">
+                            <div class="col-xs-4 text-muted text-font1">
+                                <span class="spritepic-1"></span> 
+                                服 务 日 期
+                            </div>
+                        </div>
+                        <div class="row list2">
+                            <div class="col-xs-6 text-font2">
+                                2015-7-5至2015-7-12
+                            </div>
+                            <div class="col-xs-4 pull-right text-danger text-font3 text-center">
+                                65元/小时
+                                　<span class="spritepic-2"></span>
+                            </div>
+                        </div>
+                        <div class="row list3">
+                            <div class="col-xs-6 text-muted text-font4">
+                                <span class="spritepic-3"></span>
+                                北京.通州.果园
+                            </div>
+                        </div>
+
+                        <div class="row list1">
+                            <div class="col-xs-4 text-muted text-font1">
+                                <span class="spritepic-1"></span> 
+                                服 务 日 期
+                            </div>
+                        </div>
+                        <div class="row list2">
+                            <div class="col-xs-6 text-font2">
+                                2015-7-5至2015-7-12
+                            </div>
+                            <div class="col-xs-4 pull-right text-danger text-font3 text-center">
+                                75元/小时
+                                　<span class="spritepic-2"></span>
+                            </div>
+                        </div>
+                        <div class="row list3">
+                            <div class="col-xs-6 text-muted text-font4">
+                                <span class="spritepic-3"></span>
+                                北京.通州.果园
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="navbar-fixed-bottom nav-bottom">
+                        <div class="row list4">
+                            <div class="col-xs-2 "> 
+                            </div>
+                            <div class="col-xs-2 col-xs-push-1">
+                                <button class="spritepic-5"></button>
+                                <div class="row">
+                                    <div class="col-xs-2 text-primary text-font5">
+                                        首页
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 ">
+                                <div class="row">
+                                    <button class=" col-xs-5 spritepic-6 col-xs-push-5">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-1">
+                                <button class="spritepic-7">
+                                    
+                                </button>
+                                <div class="row">
+                                    <div class="col-xs-2 text-muted text-font6 ">
+                                        我的
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-xs-2 ">
+                            </div>
+                        </div>
+                    </div>  
 
         </div>
-        <div class="footer">
 
-        </div>
-        
-
-        <script src="js/jquery/2.0.0/jquery.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>

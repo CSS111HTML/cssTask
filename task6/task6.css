@@ -1,39 +1,159 @@
-html,
-body,
-div,
-p {
-margin: 0;
-padding: 0;
-border:0;
-}
 html {
-    font-size: 65%；
+    font-size: 62.5%;
 }
-.header {
-    position: fixed;
-    bottom: 0;
-    top: 0;
-    background-color:#6fc0d7;
-    height: 5rem;
-    width: 100%;
+body {
+    margin: 0;
+    padding-top:4.4rem;
 }
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  height: 5rem;
+.header-background {
+    height: 4.4rem;
+    background-color: #5FC0CD;
 }
-.logo1{
-    width: 7.2rem;
-    height:3.5rem;
-    background-color: #55a8b3;
+.header-btn-group {
+    margin-top: .45rem;
+    width: 142.5px;
+}
+.header-btn-left {
+    height: 3.5rem;
+    background-color:#55A8B3;
+    border: 0 ;
+    border-radius: 2px;
     color: white;
+}
+.header-btn-right {
+    height: 3.5rem;
+    color: #5FC0CD;
+    border: 0;
+    background-color: white;
+    border-radius: 2px;
+}
+.list-of-head,
+.list-item {
+    border: 5px solid #E1E5E7;
+    background-color:white; 
+    width: 100%;
+    min-width: 0;
+}
+.menu1 {
+    height: 4rem;
+    border-bottom: solid 1px #E1E5E7;
+}
+.list1 {
+    padding: .6rem 0;
+}
+.list2 {
+    padding-left: 1.8rem;
+}
+.list3 {
+   padding: .6rem 0;
+   border-bottom: solid 1px #E1E5E7;
+}
+.text-font1 {
+    font-size: 1.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    width: 6.5rem;
+}
+.text-font2 {
+    font-size: 1.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    width: 4.5rem;
+}
+.text-font3 {
+    overflow: hidden;
+    width: 4.5rem;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    font-size: 1.4rem;
+}
+.text-font4 {
+    overflow: hidden;
+    width: 4.5rem;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    font-size: 1.35rem;
+}
+
+.spritepic-1 {
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.1rem;
+    background-image: url(img.png) ;
+    background-position: 0 -3.35rem;
+    background-size:4.4rem; 
+}
+
+.spritepic-2 {
+    display: inline-block;
+    width: 1rem;
+    height:1.2rem;
+    background-image: url(img.png) ;
+    background-position: 0 0;
+    background-size:3.6rem; 
+}
+.spritepic-3 {
+    display: inline-block;
+    width: 1.4rem;
+    height:1.2rem;
+    background-image: url(img.png) ;
+    background-position: 0 -1.56rem;
+    background-size:4rem; 
+}
+.spritepic-4 {
+    width: 2.2rem;
+    height:2.3rem;
+    margin-top:1.05rem; 
+    background: url(img.png) no-repeat;
+    background-position: 0 -8.18rem;
+    background-size:5.05rem;
     border: 0;
 }
-.logo2{
-    width: 7.2rem;
-    height:3.5rem;
-    color:  #55a8b3;
-    background-color: white;
+.spritepic-5 {
+    display: inline-block;
+    width: 2.4rem;
+    height:2rem;
+    background-image: url(img.png) ;
+    background-position: 0 -10rem;
+    background-size:4.5rem; 
+    background-color: rgb(249, 250, 251);
+    border: 0; 
+}
+.spritepic-6 {
+    display: inline-block;
+    width: 4.8rem;
+    height:4.8rem;
+    background: url(img.png) no-repeat;
+    background-position:0 -12.1rem;
+    background-size:4.55rem; 
+    background-color: rgb(249, 250, 251);
     border: 0;
+}
+.spritepic-7 {
+    display: inline-block;
+    width: 2.3rem;
+    height:2rem;
+    background: url(img.png) no-repeat;
+    background-position: 0 -4.8rem;
+    background-size:4.4rem; 
+    background-color: rgb(249, 250, 251); 
+    border: 0;
+}
+.list4 {
+    height: 5rem;
+    background-color: rgb(249, 250, 251);    
+}
+
+.color-blue { 
+    background-color: blue;
+}
+.text-font5 {
+    white-space:nowrap;
+    font-size: 1.1rem; 
+}
+.text-font6 {
+    white-space:nowrap; 
+    font-size: 1.1rem;
 }
