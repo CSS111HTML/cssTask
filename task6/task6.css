@@ -20,7 +20,7 @@ button.active.focus{
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-    outline: none;          
+    outline: none !important;          
 }
 
 .header-background {
@@ -52,6 +52,9 @@ button.active.focus{
     border: 0;
     background-color: white;
     border-radius: 2px;
+}
+.list6{
+  border-right: solid 1px #E1E5E7 !important;  
 }
 .list-of-head,
 .list-item {
@@ -93,13 +96,10 @@ button.active.focus{
     width: 4.5rem;
 }
 .text-font3 {
-    overflow: hidden;
     width: 8.6rem;
-    white-space: nowrap;
-    text-overflow:ellipsis;
     font-size: 1.4rem;
-    float: right;
-    color: rgb(250, 59, 12)
+    color: rgb(250, 59, 12);
+    white-space: nowrap;
 }
 .text-font4 {
     overflow: hidden;
