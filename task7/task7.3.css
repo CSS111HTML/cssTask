@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+.header{
+    height: 3.5rem;
+    width: 100%;
+    background-color: rgba(41, 189,224,1);
+    box-sizing: content !important;
+    line-height: 3.5rem;
+    font-size: 0;
+}
+.wrap-big{
+    background-color: rgba(240, 240,240,1);
+    width: 100%;
+    height: 53.5rem;
+    padding: 0 1.7rem;
+    padding-top: 1.3rem; 
+}
+.wrap-small{
+    border: 1px solid rgba(201, 201, 201, 1);
+    background-color:white; 
+    height: 50rem;
+    width: 100%;
+    position: relative;
+}
+button:focus{
+    outline: none;
+}
+.record{
+    position: relative;
+    height: 5.9rem;
+    background-color:white;  
+    line-height: 5.9rem;  
+    font-size: 1.15rem;
+    color: rgba(154, 154, 154, 1);   
+}
+.interval{
+    height: 1.3rem;
+    background-color: rgba(240, 240,240,1);
+}
+.pic1{
+    background: url(3pic.png) no-repeat;
+    background-size: 1.75rem;
+    background-position: 0 0rem;
+    height: 1.4rem;
+    border: 0;
+    vertical-align: middle; 
+    margin-left: 1.1rem;
+} 
+.pic2{
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: -.8rem;
+    top: 50%;
+    right: 1%;
+    background: url(3pic.png) no-repeat;
+    background-size: 1.6rem;
+    background-position: 0 -2.2rem;
+    height: 1.8rem;
+    border: 0;
+}
+.pic3{
+    position: absolute;
+    margin-top: -1.4rem;
+    margin-left: -.8rem;
+    top: 50%;
+    right: 1%;
+    background: url(3pic.png) no-repeat;
+    background-size: 1.6rem;
+    background-position: 0 -4.4rem;
+    height: 2.8rem;
+    border: 0;
+}
+
+.text1{
+    line-height: 4.5rem;
+    height: 4.5rem;
+    font-size:1.9rem;
+    color: rgba(253, 225,174,1);
+    border-bottom: 1px solid rgba(253, 225,174,1);
+}
+.text2{
+    height: 6.8rem;
+    width: 100%; 
+    font-size:1.9rem;
+    background-color: rgba(105, 209,233,1);
+    border:0;
+    color: white;
+    margin: 1.7rem 0;
+}
+.text3{
+    font-size:1.3rem;
+    color:rgba(122, 122,122,1); 
+}
+.circle{
+    width: 4.85rem;
+}
+.circle1{
+    display: inline-block;
+    width: .9rem;
+    height: .9rem;
+    border-radius: .45rem;
+    background-color: rgba(105, 209,233,1);
+}
+.circle2{
+    display: inline-block;
+    width: .9rem;
+    height: .9rem;
+    border-radius: .45rem;
+    background-color: rgba(240, 240,240,1); 
+}
