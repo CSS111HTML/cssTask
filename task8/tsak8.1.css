@@ -160,7 +160,8 @@
     text-indent: 20px;
     font-size: 16px;
     font-weight: bold;
-    
+    height: 230px;
+    overflow: hidden;
 }
 
 .all{
@@ -376,7 +377,9 @@ ul a:active {
     .list1-4:hover{
         border-bottom: 4px solid white;
     }
-  }
+    
+ 
+}
  @media screen and (min-width:768px) and (max-width:1200px){
      .footer-right{
             position: static;
