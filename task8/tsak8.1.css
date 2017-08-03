@@ -23,7 +23,7 @@
     display:inline-block;
     height: 25px;
     width: 25px;
-    background: url(img.png) no-repeat;
+    background: url(task8.img/img.png) no-repeat;
     background-size: 110px;
     background-position: 0 -89px;
     padding-left: 16px;
@@ -33,7 +33,7 @@
     display:inline-block;
     height: 25px;
     width: 26px;
-    background: url(img.png) no-repeat;
+    background: url(task8.img/img.png) no-repeat;
     background-size: 111px;
     background-position: 0 -56px;
     padding-left: 16px;
@@ -43,7 +43,7 @@
     display:inline-block;
     height: 25px;
     width: 26px;
-    background: url(img.png) no-repeat;
+    background: url(task8.img/img.png) no-repeat;
     background-size: 110px;
     background-position: 0 -23px;
 }
@@ -138,9 +138,9 @@ a{
     
 }
 
-/* .all:hover .small-wrap{
+ .all:hover .small-wrap{
     display: block;
-} */
+} 
  .small-wrap{
     background-color: rgba(0, 0, 0, .5);
     position: absolute;
@@ -242,7 +242,7 @@ ul a:active {
     font-size: 13px; 
 }
 .pic3{
-    background: url(img.png) no-repeat;
+    background: url(task8.img/img.png) no-repeat;
     background-size: 110px;
     background-position: 0 0;
     display: inline;
@@ -516,12 +516,22 @@ border-bottom: 1px solid white;
     height: 35px;
     line-height: 35px;
 }
- .text-color:focus,
- .text-color:hover{
+.nav-list-item li a:visiter
+ {
+     background-color: #29b078 !important; 
+    color: white;
+    border-bottom: 1px solid black !important;;
+}
+
+.text-color:focus,
+.text-color:hover{
     background-color: #29b078 !important;
     color: white;
     border-bottom: 1px solid white;
 } 
+.text-work{
+    border-bottom: 1px solid white;
+}
 .appearance{
     background-color: #29b078; 
      margin-top: -55px; 
