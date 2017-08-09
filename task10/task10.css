@@ -192,6 +192,10 @@
     background-color: #fbfcff;
     border: 1px solid #e7e7e7;
 }
+.menu5{
+    border: 1px solid #e7e7e7;
+    border-top: 0;
+}
 .suit-cases,
 .aireplane-box,
 .world{
@@ -214,7 +218,7 @@ input[type=radio]:checked+label:before{
     border: 6.5px solid #1d7ad9;
 }
 .select1,
-.select2,
+ .select2, 
 .select3{
     position: relative;
     top: 0;
@@ -223,11 +227,12 @@ input[type=radio]:checked+label:before{
     font-size: 15px;
     font-weight:normal;
 }
-.select2,
 .select3{
     margin: 50px 0;
 }  
-
+.select2{
+margin: 50px 0;
+}
 .select1-1,
 .select2-1,
 .select3-1{
@@ -251,13 +256,33 @@ input[type=radio]:checked+label:before{
 
 
 
-.inner,
+/* .inner,
 .outer{
     font-size: 19px;
     font-weight: normal;
 }
-
+.outer{
+    margin:31px 0 26px;
+} */
+.outer1,
+.inner1{
+    font-size: 19px;
+    
+}
+.outer,
+.inner{
+font-weight: normal;
+}
+.outer1{
+    margin: 26px 0;
+}
 .number1{
+    margin: 26px 0;
+}
+.number2{
+    margin-bottom: 27px;
+}
+/* .number1{
     margin-bottom: 14px;
     text-align:center;
     font-size: 19px;
@@ -268,10 +293,8 @@ input[type=radio]:checked+label:before{
     font-size: 19px;
     font-weight: normal;
     margin: 26.5px 0;
-}
-.outer{
-    margin:31px 0 26px;
-}
+} */
+
 
 .input-text1{
     height: 30px;   
@@ -313,6 +336,8 @@ input[type=radio]:checked+label:before{
     border-top: 1px solid #e7e7e7;
     background-color:#f9f9f9;
     padding:70px 0 60px;
+    margin-top: 55px;
+    border: 0;
 }
 .pack-net{
     color: #999999;
@@ -332,9 +357,7 @@ input[type=radio]:checked+label:before{
     text-decoration: none;
     color: #1d7ad9;
 }
-.text4 a{
-    color: #1d7ad9;
-}
+
 .submit{
     margin: 70px 0 50px; 
 }
@@ -362,7 +385,7 @@ input[type=radio]:checked+label:before{
 
 
 @media screen and (min-width:280px) and (max-width:768px){
-    .header-bottom{
+.header-bottom{
     display: none;
 }
 .list-item-1{
@@ -421,14 +444,21 @@ input[type=radio]:checked+label:before{
     .outer1,
     .inner1{
         margin: 0;
-        margin-bottom: 23px;
         display: inline-block;
         text-align: center;
         
 }
     .outer1{
-        margin-top: 40px;
+         margin-top: 40px;  
     }
+        .inner1{
+            margin-bottom:15px;
+        }
+        .select2,
+        .select1{
+            margin: 0;
+            margin-bottom: 30px;
+        }
     .number{
     margin-bottom: -14px;
 }
@@ -436,6 +466,7 @@ input[type=radio]:checked+label:before{
     .number1{
         margin: 14px 0;
 }
+
     .number1:first-child{
         margin-top: 0px;
 }
@@ -477,8 +508,19 @@ input[type=radio]:checked+label:before{
 .select1{
     margin: 29.5px 0;
 }
-.inner{
+/* .inner{
     margin-top: 30px;
+} */
+ .outer1{
+    margin-bottom: 10px;  
+} 
+.inner1{
+    margin: 0;
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+.number1{
+    margin: 0;
 }
  .select2{
     margin-top: 26px;
