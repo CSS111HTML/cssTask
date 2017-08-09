@@ -554,5 +554,8 @@ font-weight: normal;
     display: flex;
     justify-content: flex-end;
 } 
+    /* .select2{
+        text-align: right;
+    } */
     
 }
