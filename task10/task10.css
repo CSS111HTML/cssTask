@@ -196,9 +196,7 @@
     border: 1px solid #e7e7e7;
     border-top: 0;
 }
-.suit-cases,
-.aireplane-box,
-.world{
+.small-box{
     margin: 36px 0;
     font-size: 19px;
     font-weight:normal;
@@ -256,44 +254,29 @@ margin: 50px 0;
 
 
 
-/* .inner,
-.outer{
-    font-size: 19px;
-    font-weight: normal;
-}
-.outer{
-    margin:31px 0 26px;
-} */
-.outer1,
-.inner1{
-    font-size: 19px;
+
+.besides,
+.inside{
     
-}
-.outer,
-.inner{
 font-weight: normal;
+font-size: 19px;
+}
+.small-box{
+font-weight: normal;
+font-size: 19px;
 }
 .outer1{
     margin: 26px 0;
 }
 .number1{
     margin: 26px 0;
+    
 }
 .number2{
     margin-bottom: 27px;
+    
 }
-/* .number1{
-    margin-bottom: 14px;
-    text-align:center;
-    font-size: 19px;
-    font-weight: normal;
-}
-.number2{
-    text-align:center;
-    font-size: 19px;
-    font-weight: normal;
-    margin: 26.5px 0;
-} */
+
 
 
 .input-text1{
@@ -307,7 +290,7 @@ font-weight: normal;
 .good-quality{
     margin: 58px 0;
 }
-.good-quality1{
+.good-quality7{
     font-size: 19px;
     font-weight: normal;
 }
@@ -508,9 +491,7 @@ font-weight: normal;
 .select1{
     margin: 29.5px 0;
 }
-/* .inner{
-    margin-top: 30px;
-} */
+
  .outer1{
     margin-bottom: 10px;  
 } 
@@ -554,8 +535,6 @@ font-weight: normal;
     display: flex;
     justify-content: flex-end;
 } 
-    /* .select2{
-        text-align: right;
-    } */
+     
     
 }
