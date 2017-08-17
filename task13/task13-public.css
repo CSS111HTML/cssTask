@@ -1,0 +1,25 @@
+.btn-rightangle{
+    border: 0;
+    outline: none;
+    color: white;
+}
+.btn-border-radius{
+    border:0;
+    border-radius: 5px;
+    color: white;
+}
+.footer-fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.vertical-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-pub{
+    padding: 0;
+    border: 0;
+}

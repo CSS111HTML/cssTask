@@ -1,0 +1,115 @@
+body {
+  margin: 0; }
+
+.header {
+  height: 42px;
+  background-color: #29bde0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: #c9c9c9 1px solid; }
+
+.header span {
+  color: white;
+  font-size: 18px; }
+.header .home {
+  background: url(img/pig8.png) no-repeat;
+  height: 22px;
+  width: 26px;
+  background-size: 26px 22px;
+  margin-left: 9px; }
+.header .help {
+  background: url(img/pic9.png) no-repeat;
+  height: 20px;
+  width: 20px;
+  background-size: 20px 20px;
+  margin-right: 9px; }
+
+.middle {
+  margin-bottom: 65px; }
+
+.middle-top {
+  background-color: #29bde0;
+  display: flex;
+  justify-content: center; }
+
+.middle-top .bs {
+  padding-top: 26px;
+  width: 240px; }
+.middle-top .small-wrap {
+  display: flex;
+  justify-content: center; }
+.middle-top .flower {
+  height: 102px;
+  width: 175px; }
+.middle-top .text1 {
+  color: #fbb435;
+  margin-bottom: 23px; }
+.middle-top .word {
+  color: white;
+  font-size: 14px;
+  padding-bottom: 13px; }
+
+.word .text2 {
+  width: 42px;
+  text-align: justify;
+  text-align-last: justify;
+  display: inline-block; }
+.word .text3 {
+  margin: 0px;
+  margin-bottom: 2px; }
+.word .text4 {
+  margin: 0px;
+  margin-top: 2px; }
+.word .text5 {
+  margin: 0px; }
+
+.middle-bottom .bs {
+  display: flex;
+  justify-content: center; }
+.middle-bottom .first-day,
+.middle-bottom .second-day,
+.middle-bottom .three-day {
+  border-bottom: #c9c9c9 1px solid;
+  width: 240px; }
+.middle-bottom .time {
+  height: 27px;
+  line-height: 27px; }
+.middle-bottom .text6 {
+  font-size: 16px;
+  color: #515151; }
+.middle-bottom .text7 {
+  font-size: 13px;
+  color: #c7c7c7;
+  float: right; }
+.middle-bottom .text8 {
+  font-size: 13px;
+  color: #a6a6a6;
+  margin: 0;
+  margin-top: 7px; }
+.middle-bottom .text9 {
+  font-size: 13px;
+  color: #a6a6a6;
+  margin: 0;
+  margin: 6px 0 13px; }
+
+.footer {
+  padding: 10px 0;
+  font-size: 0;
+  height: 45px;
+  background-color: rgba(41, 189, 224, 0.5); }
+
+.footer .btn1 {
+  margin: 0 3.9% 0 2%;
+  height: 44px;
+  background-color: #f66f6f;
+  font-size: 20px;
+  width: 44.1%; }
+.footer .btn2 {
+  margin: 0 2% 0 3.9%;
+  height: 44px;
+  background-color: #fbb435;
+  font-size: 20px;
+  width: 44.1%; }
+
+/*# sourceMappingURL=task13.2.css.map */

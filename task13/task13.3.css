@@ -1,0 +1,141 @@
+body {
+  margin: 0; }
+
+.header {
+  padding: 0 12px;
+  height: 35px;
+  background-color: #29bde0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header .btn-text {
+    height: 20.5px;
+    width: 19.5px;
+    background: no-repeat url(img/pic1.png);
+    background-size: 19.5px 20.5px; }
+  .header .btn-backout {
+    height: 19.5px;
+    width: 18.5px;
+    background: no-repeat url(img/pic2.png);
+    background-size: 18.5px 19.5px; }
+  .header span {
+    font-size: 18px;
+    color: white; }
+
+.middle-top {
+  padding: 0 8px 0 25px;
+  height: 41px;
+  background-color: #b9e9f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .middle-top span {
+    font-size: 16px; }
+  .middle-top .btn-begin {
+    height: 27px;
+    width: 26.5px;
+    background: no-repeat url(img/pic3.png);
+    background-size: 26.5px 27px; }
+
+.middle-bottom {
+  background-color: #29bde0;
+  padding-bottom: 140px; }
+  @media screen and (min-width: 760px) {
+    .middle-bottom {
+      padding-bottom: 240px; } }
+  .middle-bottom .triangle {
+    width: 0;
+    height: 0;
+    margin-left: 35px;
+    border-top: 7px solid #b9e9f5;
+    border-left: 4px solid rgba(1, 1, 1, 0);
+    border-right: 4px solid rgba(1, 1, 1, 0); }
+  .middle-bottom span {
+    font-size: 15px;
+    color: white;
+    margin-left: 36px; }
+  .middle-bottom .wrap1,
+  .middle-bottom .wrap2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+  .middle-bottom .wrap1 {
+    margin-top: 20px; }
+  .middle-bottom .wrap2 {
+    margin-top: 10%; }
+  .middle-bottom .box1 {
+    width: 21%;
+    border: 3px solid white;
+    position: relative;
+    top: 0;
+    left: 0; }
+    .middle-bottom .box1:hover .pic-group {
+      display: block; }
+  .middle-bottom .box1-1, .middle-bottom .box1-2 {
+    margin: 0;
+    display: block;
+    width: 100%; }
+  .middle-bottom .box1-1 {
+    padding: 41% 0;
+    background-color: #f5c97b; }
+  .middle-bottom .box1-2 {
+    padding: 9% 0;
+    background-color: #83b09a; }
+  .middle-bottom .pic-group {
+    width: 100%;
+    position: absolute;
+    top: 92%;
+    left: 0;
+    display: none;
+    font-size: 0; }
+  .middle-bottom .pic4,
+  .middle-bottom .pic14,
+  .middle-bottom .pic15,
+  .middle-bottom .pic16 {
+    margin-right: 4%;
+    padding: 25% 0;
+    width: 23.5%; }
+  .middle-bottom .pic4 {
+    margin-left: -4%; }
+  .middle-bottom .pic16 {
+    margin-right: -4%; }
+  .middle-bottom .name {
+    font-size: 16px;
+    position: absolute;
+    margin-left: -16px;
+    margin-top: -12px;
+    top: 50%;
+    left: 50%; }
+  .middle-bottom .number {
+    font-size: 12px;
+    position: absolute;
+    margin-left: -9.5px;
+    margin-top: -8.5px;
+    top: 93%;
+    left: 50%; }
+  @media screen and (min-width: 760px) {
+    .middle-bottom .name {
+      font-size: 30px;
+      margin-left: -30px;
+      margin-top: -20px; }
+    .middle-bottom .number {
+      font-size: 16px;
+      margin-left: -12.5px;
+      margin-top: -11px; } }
+
+.footer {
+  height: 44px;
+  padding: 22px 0;
+  background-color: #29bde0;
+  text-align: center; }
+  .footer .btn-dead {
+    border: 0;
+    outline: none;
+    color: white;
+    height: 44px;
+    width: 80%;
+    background-color: #fbb435;
+    color: white;
+    font-size: 20px; }
+
+/*# sourceMappingURL=task13.3.css.map */

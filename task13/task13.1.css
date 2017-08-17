@@ -1,0 +1,119 @@
+body {
+  margin: 0; }
+
+.header {
+  height: 35px;
+  width: 100%;
+  background-color: #29bde0; }
+
+.line-three {
+  height: 13.5px;
+  width: 17px;
+  background: url(img/line-three.png) no-repeat;
+  background-size: 17px 13.5px;
+  margin-left: 11px; }
+
+.middle {
+  background-color: #f0f0f0;
+  height: 100%;
+  padding: 13px 17px 30px; }
+
+.middle-top {
+  margin-bottom: 13px;
+  color: #9a9a9a;
+  border: #c9c9c9 1px solid;
+  height: 59px;
+  background-color: white;
+  line-height: 59px;
+  position: relative;
+  top: 0;
+  left: 0; }
+
+.text1 {
+  font-size: 18px;
+  display: block;
+  text-align: center; }
+
+.back-icon {
+  height: 20px;
+  width: 12px;
+  background: url(img/back-icon.png) no-repeat;
+  background-size: 12px 20px;
+  z-index: 20;
+  margin-left: -6px;
+  margin-top: -10px;
+  position: absolute;
+  top: 50%;
+  right: 12px; }
+
+.middle-bottom {
+  background-color: white;
+  height: 420px;
+  border: #c9c9c9 1px solid;
+  position: relative;
+  top: 0;
+  bottom: 0; }
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 14px solid #fbb435;
+  border-top: 13.5px solid rgba(1, 1, 1, 0);
+  border-bottom: 13.5px solid rgba(1, 1, 1, 0);
+  position: absolute;
+  margin-top: -13.5px;
+  margin-left: 7px;
+  top: 50%;
+  right: 4px; }
+
+.text2 {
+  color: #fbb435;
+  font-size: 20px;
+  border-bottom: #fbb435 1px solid;
+  height: 48px;
+  line-height: 48px;
+  background-color: white;
+  text-align: center; }
+
+.edition {
+  padding: 0 28px; }
+
+.btn1 {
+  height: 68px;
+  background-color: #29bde0;
+  width: 100%;
+  margin-top: 15px; }
+
+.text3 {
+  color: #9a9a9a;
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+  margin: 11px 0; }
+
+.btn2 {
+  height: 68px;
+  background-color: #29bde0;
+  width: 100%; }
+
+.circle-group {
+  margin-bottom: 20px; }
+
+.circle-blue {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #29bde0;
+  margin-right: 5px; }
+
+.circle-gray {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #9a9a9a;
+  margin-right: 5px; }
+
+.circle-gray:last-child {
+  margin-right: 0px; }
+
+/*# sourceMappingURL=task13.1.css.map */

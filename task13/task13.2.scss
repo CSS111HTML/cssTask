@@ -1,0 +1,155 @@
+$blue:#29bde0;
+$orange:#fbb435;
+$gray1:#9a9a9a;
+$pink:#f66f6f;
+$gray2:#f0f0f0;
+$border:#c9c9c9 1px solid;
+$white:white;
+
+body{
+    margin: 0;
+}
+
+.header{
+    height: 42px;
+    background-color: $blue;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom:$border;
+}
+.header{
+    span{
+        color: $white;
+        font-size: 18px;
+        
+    }
+.home{
+    background: url(img/pig8.png) no-repeat;
+    height: 22px;
+    width: 26px;
+    background-size: 26px 22px;
+    margin-left: 9px;
+}
+.help{
+    background: url(img/pic9.png) no-repeat;
+    height: 20px;
+    width: 20px;
+    background-size: 20px 20px;
+    margin-right: 9px;
+}
+}
+.middle{
+    margin-bottom: 65px;
+}
+
+.middle-top{
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    
+}
+.middle-top{
+    .bs{
+        padding-top: 26px;
+        width: 240px;
+
+    }
+    .small-wrap{
+        display: flex;
+        justify-content: center;    
+    }
+    .flower{
+        height: 102px;
+        width: 175px;  
+    }
+    .text1{
+        color: $orange;
+        margin-bottom: 23px;
+    }
+    .word{
+        color: $white;
+        font-size: 14px;
+        padding-bottom: 13px;
+    }
+}
+.word{
+    .text2{
+        width: 42px;
+        text-align: justify;
+        text-align-last: justify;
+        display: inline-block;
+    }
+    .text3{
+        margin: 0px;
+        margin-bottom:2px;
+    }
+    .text4{
+        margin: 0px;
+        margin-top:2px;
+    }
+    .text5{
+        margin: 0px;
+    }
+
+}
+
+.middle-bottom{
+    .bs{
+        display: flex;
+    justify-content: center;
+    }
+    .first-day,
+    .second-day,
+    .three-day{
+        border-bottom: $border;
+        width: 240px;
+    }
+    .time{
+        height: 27px;
+        line-height: 27px;
+    }
+    .text6{
+        font-size: 16px;
+        color: #515151;
+    }
+    .text7{
+        font-size: 13px;
+        color: #c7c7c7;
+        float: right;
+    }
+    .text8{
+        font-size: 13px;
+        color: #a6a6a6;
+        margin: 0;
+        margin-top: 7px;
+    }
+    .text9{
+        font-size: 13px;
+        color:#a6a6a6;
+        margin: 0;
+        margin: 6px 0 13px;
+    }
+}
+.footer{
+    padding: 10px 0;
+    font-size: 0;
+    height: 45px;
+    background-color: rgba(41,189,224,.5)
+}
+.footer{
+    .btn1{
+        margin: 0 3.9% 0 2%;
+        height: 44px;
+        background-color: #f66f6f;
+        font-size: 20px;
+        width: 44.1%;
+    }
+    .btn2{
+        margin: 0 2% 0 3.9%;
+        height: 44px;
+        background-color: $orange;
+        font-size: 20px;
+        width: 44.1%;
+    }
+}
