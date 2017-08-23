@@ -1,0 +1,16 @@
+.wrap{
+    display:grid;
+    grid-template-columns:200px 220px 200px 200px 200px;
+    grid-template-rows: 90px 90px;
+    grid-column-gap:20px;
+    grid-row-gap:15px;
+  }
+  .box1{
+      background-color: blue;
+  }
+  .box1-1{
+      background-color: green;
+  }
+  .box2{
+    background-color: green;
+  }
