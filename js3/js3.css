@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+}
+.wrap{
+    
+    background-color: #29bde0;
+    height: 400px;
+    margin: 0 40%;
+    margin-top: 100px;
+}
+#header{
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    height: 60px;
+    border-bottom: #74d4eb 1px solid;
+}
+#voteBtn{
+    border: 0;
+    width: 180px;
+    height: 40px;
+    background-color: #fbb435;
+    margin-top: -20px;
+    margin-left: -90px;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    color: white;
+}
