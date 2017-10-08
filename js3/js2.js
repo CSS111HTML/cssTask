@@ -1,6 +1,7 @@
 var headcount=document.getElementById('headcount');
 var numkill=document.getElementById('numkill');
 var numpeasent=document.getElementById('numpeasent');
+var numBtn=document.getElementById('numBtn');
 var headvalNum=[];
 var numKiNum=[];
 var numPeaNum=[];
@@ -19,47 +20,35 @@ if(headcount.value>=3 && headcount.value<=8){
     numkill.value=4;
     numpeasent.value=headcount.value-4;
 } 
-
-headcount.onblur=function(){ 
-    console.log(headcount.value);
-    for(var i=0;i<headcount.value;i++){
-        headvalNum.push(i)  
-        }    
-console.log(headvalNum)
-console.log(numkill.value);
+headcount.onblur=function(){   
 for(var i=0;i<numkill.value;i++){
-    numKiNum.push(i)  
+    headvalNum.push("杀手")   
     }    
-console.log(numKiNum)
-
-console.log(numpeasent.value);
-for(var i=0;i<numpeasent.value;i++){
-    numPeaNum.push(i)  
+for(var i=0;i<numpeasent.value;i++){  
+    headvalNum.push("水民")   
     }    
-console.log(numPeaNum)
-
-
     if(isNaN(headcount.value)){
         alert('请输入数字3-18之间数字');
-        headcount.oninput(function(){});
+        headcount.onclick(function(){});
     }else if(headcount.value<3 || headcount.value>18){
         alert('请输入数字3-18之间数字');
-    }else{ window.open("js3.html", );}
-    
+    }
+   else{window.location.href="js3.html"}
+
+   function shuffle() {
+    var m = headvalNum.length,
+        t, i;
+    while (m) {
+        i = Math.floor(Math.random() * m--);
+        t = headvalNum[m];
+        headvalNum[m] = headvalNum[i];
+        headvalNum[i] = t;
+    }
+    return headvalNum
+} 
+shuffle(headvalNum)
+
     headvalNum= JSON.stringify(headvalNum);
     localStorage.setItem("k1",headvalNum);
-    numKiNum= JSON.stringify(numKiNum);
-    localStorage.setItem("k2",numKiNum);
-    numPeaNum= JSON.stringify(numPeaNum);
-    localStorage.setItem("k3",numPeaNum);
 }
 }
-
-
-
-
-
-
-
-
-

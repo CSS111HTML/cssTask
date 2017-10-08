@@ -10,22 +10,99 @@ body{
 }
 #header{
     color: white;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     align-items: center;
     vertical-align: middle;
     height: 60px;
     border-bottom: #74d4eb 1px solid;
 }
-#voteBtn{
+#headerLeft{
+    background: url(img/back.png) no-repeat;
+    height: 20px;
+    width: 12px;
+    background-size: 12px 20px;
+    margin-left: 20px;
+    border:0;
+}
+.headerRight{
+    background: url(img/close.png) no-repeat;
+    height: 20px;
+    width: 20px;
+    background-size: 20px 20px;
+    margin-right: 20px;
+    border:0;
+}
+#num{
+    text-align: center;
     border: 0;
-    width: 180px;
+    position: absolute;
+    margin-top: -12.5px;
+    margin-left: -12.5px;
+    top: 28.5%;
+    left: 50%;
+    height: 25px;  
+    width: 25px;
+    border-radius: 50%;
+    color: orange;
+    background-color: white;
+    z-index: 5;
+}
+#section{
+    position: relative;
+    height: 55%;
+    width: 60%;
+    margin: 10% 20%;
+    background-color: #FDEFCC;
+}
+#wrapper{
+    display: block;
+}
+#section .pic2{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -40px;
+    left: 50%;
+    top: 30%;
+    background:url(img/pic2.jpg) no-repeat; 
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-size:80px 80px;
+}
+#section #textRole{
+    position: absolute;
+    margin-top: -10.5px;
+    margin-left: -16px;
+    top: 55%;
+    left: 50%;
+    font-weight: bold;
+    color: #74d4eb;
+}
+#section .pic2 .textRole{
+    text-align: center;
+    margin-top: 40px;
+}
+#section #pic{
+    display: none;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -40px;
+    left: 50%;
+    top: 50%;
+    background:url(img/pic1.jpg) no-repeat; 
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-size:80px 80px;
+}
+#voteBtn{
+    font-size: 20px;
+    border: 0;
+    width: 60%;
     height: 40px;
     background-color: #fbb435;
     margin-top: -20px;
-    margin-left: -90px;
-    position: absolute;
-    top: 450px;
-    left: 50%;
+    margin:0 20%;
     color: white;
 }

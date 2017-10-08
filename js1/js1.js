@@ -16,7 +16,6 @@ function num(){
                i=i-1;
                break;
            }
-
         }
     }
 }

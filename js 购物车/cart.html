@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cart.css">
+   
+    <title>购物车</title>
+</head>
+<body>
+    <div class="wrap">
+            <table id="cartTable">
+                    <thead>
+                        <tr>
+                            <th><label><input class="check-all check" type="checkbox">&nbsp;全选</label></th>
+                            <th>商品</th>
+                            <th>单价</th>
+                            <th>数量</th>
+                            <th>小计</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="checkbox"><input class="check-one check" type="checkbox"></td>
+                            <td class="goods"><img src="img/feiyue.png" class="pic shose"><span class="name">国产飞跃</span></td>
+                            <td class="price">79.00</td>
+                            <td class="count">
+                                <input class="countInput" type="number" value="1">
+                            </td>
+                            <td class="subtotal">79.00</td>
+                            <td class="operation"><span class="delete">删除</span></td>
+                        </tr>
+                        <tr>
+                            <td class="checkbox"><input class="check-one check" type="checkbox"></td>
+                            <td class="goods"><img src="img/camera.png" class="pic camera"><span>富士相机</span></td>
+                            <td class="price">9999.99</td>
+                            <td class="count">
+                                <input class="countInput" type="number" value="1">
+                            </td>
+                            <td class="subtotal">9999.99</td>
+                            <td class="operation"><span class="delete">删除</span></td>
+                        </tr>
+                        <tr>
+                            <td class="checkbox"><input class="check-one check" type="checkbox"></td>
+                            <td class="goods"><img src="img/jsbook.png" class="pic jsbook"><span>javascript权威指南</span></td>
+                            <td class="price">139.00</td>
+                            <td class="count">
+                                <input class="countInput" type="number" value="1">
+                            </td>
+                            <td class="subtotal">139.00</td>
+                            <td class="operation"><span class="delete">删除</span></td>
+                        </tr>
+                        <tr>
+                            <td class="checkbox"><input class="check-one check" type="checkbox"></td>
+                            <td class="goods"><img src="img/Earphone.png" class="pic Earphone"><span>漫步者耳机黑白两色</span></td>
+                            <td class="price">49.00</td>
+                            <td class="count">
+                                <input class="countInput" type="number" value="1">
+                            </td>
+                            <td class="subtotal">49.00</td>
+                            <td class="operation"><span class="delete">删除</span></td>
+                        </tr>
+                        <tr>
+                            <td class="checkbox"><input class="check-one check" type="checkbox"></td>
+                            <td class="goods"><img src="img/sweater.png" class="pic swrater"><span>秋季新款奶白色毛衣女</span></td>
+                            <td class="price">109.00</td>
+                            <td class="count">
+                                <input class="countInput" type="number" value="1">
+                            </td>
+                            <td class="subtotal">109.00</td>
+                            <td class="operation"><span class="delete">删除</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+                <div class="foot" id="foot">
+                    <label class="fl selectAll"><input type="checkbox" class="check-all check">&nbsp;全选</label>
+                    <a class="fl delect" id="delectAll" href="javascript:;"> 删除</a>
+                    <div class="fr selected" id="selected">已选商品
+                        <span id="selectedTotal">0</span>件
+                    </div>
+                    <div class="selectedView">
+                        <div id="selectedViewList" class="claearfix">
+                            <!-- <div><img src="img/feiyue.png"><span>取消选择</span></div> -->
+                        </div>
+                        <span class="arrow">.</span>.<span></span>
+                    </div>
+                    <div class="fr total">合计：￥<span id="priceTotal">0.00</span></div>
+                    <div class="fr closing">结算</div>
+                </div>
+    </div>
+    
+
+    <script src="cart.js"></script>
+</body>
+</html>

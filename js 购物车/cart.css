@@ -1,0 +1,86 @@
+
+.wrap{
+    margin: 1% 5%;
+    width: 100%;
+}
+#cartTable{ 
+    border-right: 1px solid #add8ef;
+    border-left: 1px solid #add8ef;
+    border-bottom: 1px solid #add8ef;
+    border-collapse: collapse; 
+}
+tabel td{
+    border-left: 1px solid #00bfff;
+    border-top: 1px solid #00bfff;
+}
+tr{
+    border-bottom: 1px solid #add8ef;
+}
+.pic{
+    height: 80px;
+    width: 80px;
+}
+thead th{
+    height: 35px;
+    background-color: #add8ef;
+    border: 0;
+}
+tbody tr{
+    background-color: #f0f8ff;
+    height: 80px;
+}
+.checkOn{
+    width: 80px;
+    margin: 0 auto;
+}
+.goods{
+    display: flex;
+    width: 320px;
+    margin-right: 80px;
+    align-items: center;
+    margin-left: 50px;
+}
+.price,
+.subtotal{
+    width: 220px;
+    text-align: center;
+}
+.count{
+    width: 40px;
+}
+.countInput{
+    width: 40px;
+    text-align: center;
+}
+.operation{
+    width: 100px;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 60px;
+    background-color: #add8ef;
+    margin:1% 5% 0 0%;
+    width: 84.5%;
+    align-items: center;
+}
+.selected{
+    width: 120px;
+}
+.delect{
+    margin-left: 60px;
+    width: 640px;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.total{
+    width: 160px;
+    /* margin: 0 auto; */
+}
+.closing{
+    width: 60px;
+    margin: 0 auto;
+}
