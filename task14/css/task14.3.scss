@@ -242,7 +242,12 @@ a{
         overflow: hidden;
     }
 } 
-
+.all1:hover .small-wrap,
+.all2:hover .small-wrap,
+.all3:hover .small-wrap
+{
+    display: block;
+}
 
 
 .list3{

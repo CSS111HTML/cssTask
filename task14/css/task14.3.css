@@ -217,6 +217,11 @@ a {
     height: 230px;
     overflow: hidden; }
 
+.all1:hover .small-wrap,
+.all2:hover .small-wrap,
+.all3:hover .small-wrap {
+  display: block; }
+
 .list3 {
   padding: 30px; }
   .list3 .pic2 {
