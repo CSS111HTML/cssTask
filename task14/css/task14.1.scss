@@ -40,6 +40,9 @@
         @media screen and (min-width:280px) and (max-width:989px){
             text-align: center;
             }
+        @media screen and (min-width:280px) and (max-width:698px){
+            margin-top: -40px;
+        }
     }       
     
     .text-efficient,
@@ -208,6 +211,25 @@
         width: 140px;
     }
     
+}
+
+.text10{
+    text-align: center;
+    display: inline-block;
+    height: 72px;
+    width: 72px;
+    border-radius: 36px;
+    background-color: white;
+    box-shadow: 0 0 20px #f0efef; 
+    line-height: 72px;
+    font-size: 18px;
+    color: #26a26f;
+    @media screen and (min-width:280px) and (max-width:767px){
+        height: 54px;
+        width: 54px;
+        border-radius: 27px;
+        line-height: 54px;
+    }
 }
 .finish{
     flex:1 1 auto;

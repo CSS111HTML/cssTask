@@ -38,6 +38,9 @@
     @media screen and (min-width: 280px) and (max-width: 989px) {
       .wrap1 .text4 {
         text-align: center; } }
+    @media screen and (min-width: 280px) and (max-width: 698px) {
+      .wrap1 .text4 {
+        margin-top: -40px; } }
   .wrap1 .text-efficient,
   .wrap1 .text-standard,
   .wrap1 .text-connection {
@@ -174,6 +177,24 @@
   .list7 .text12 {
     display: inline-block;
     width: 140px; }
+
+.text10 {
+  text-align: center;
+  display: inline-block;
+  height: 72px;
+  width: 72px;
+  border-radius: 36px;
+  background-color: white;
+  box-shadow: 0 0 20px #f0efef;
+  line-height: 72px;
+  font-size: 18px;
+  color: #26a26f; }
+  @media screen and (min-width: 280px) and (max-width: 767px) {
+    .text10 {
+      height: 54px;
+      width: 54px;
+      border-radius: 27px;
+      line-height: 54px; } }
 
 .finish {
   flex: 1 1 auto;

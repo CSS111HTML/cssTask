@@ -3,7 +3,9 @@
 
 .pic1{
     display: flex;
-    
+    @media screen and (min-width:280px) and (max-width:698px){
+        margin-top: -40px;
+    }
 }
 .pic1-1{
     flex: 1 1 auto;

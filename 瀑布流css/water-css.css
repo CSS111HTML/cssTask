@@ -1,0 +1,17 @@
+#main{
+    -webkit-column-count:6;
+    column-count: 6;
+    -moz-column-count: 6;
+}
+.box{
+padding: 10px 0 0 20px;
+}
+.img{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+.img img{
+    width: 170px;
+    height: auto;
+}

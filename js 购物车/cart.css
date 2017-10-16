@@ -40,6 +40,47 @@ tbody tr{
     align-items: center;
     margin-left: 50px;
 }
+.on{
+    background-color: #adefef;
+}
+.wrap .show{
+    margin-top: 100px;
+}
+
+#selectedViewList{
+    position: absolute;
+    left:50px;
+    top: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    z-index: -4;
+    /* display: none; */
+}
+#selectedViewList div{
+    position: relative;
+}
+#selectedViewList div img{
+    height: 80px;
+    width: 80px;
+ }
+#selectedViewList div:hover span{
+    /* display: block; */
+    color: red;
+}  
+#selectedViewList div span{
+        /* display: block; */
+        position: absolute;
+        left: 0;
+        top: 0;
+    margin-left: 30px;
+    font-size: 12px;
+    /* margin-top: -85px; */
+    /* display: none; */
+     
+
+}
 .price,
 .subtotal{
     width: 220px;
