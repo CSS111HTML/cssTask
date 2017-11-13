@@ -82,4 +82,10 @@
     .wrap2{
         width: 100%;
     }
+    .list-item li{
+        display: inline-block;
+        width: 25%;
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
 }
