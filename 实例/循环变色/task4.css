@@ -1,0 +1,9 @@
+#btn{
+    display: block;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    display: inline-block;
+}

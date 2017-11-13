@@ -1,0 +1,166 @@
+html{
+    font-size: 65%;
+}
+.bGcolors{
+    position: relative;
+    height: 100%;
+    background-color: #F2F2F2;
+}
+.head-top,
+.wrap{
+    background-color: #fff;
+}
+.head-center{
+    width: 100%;
+    height: auto;
+}
+.head-bottom{
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.part1{
+margin-top: 10px;
+background-color: #fff;
+}
+input:focus{
+    outline: none;
+}
+.head-top{
+    padding:1rem 0;
+    position: relative;
+}
+.inputstext1{
+    height: 26px;
+    margin-left: 2.5%;
+    width: 95%;
+    border-radius: 13px;
+    padding-left: 30px;
+    border: 1px solid #DEDEDE;
+}
+.search{
+    width: 24px;
+    height: auto;
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    margin-left: -15px;
+}
+.childs,
+.member,
+.cards,
+.gifi{
+width: 25rem;
+height: auto;
+}
+.section{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.groom{
+    margin: 10px 0;
+}
+.grooms1{
+  color: #5EA626;
+  font-size: 16px;
+  border-left: 2px solid #5EA626;
+}
+.more{
+    color: #FF815D;
+}
+.jpg2{
+    width: 25rem;
+    height: auto;  
+}
+.vegetables,
+.tickets{
+    height: 40px;
+}
+.advert{
+    color: #9B9B9B;
+    font-size: 12px;
+    height: 24px;
+}
+.val1{
+    color: #FF701E;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.cars1{
+    width:25px;
+    height: auto;
+}
+.img .homes{
+    color: #5EA626;
+    font-size: 12px;
+    display: block;
+}
+
+#success{
+    padding: 20px;
+    width: 236px;
+    height: 128px;
+    background-color: #fff;
+    border-radius: 5px;
+    z-index: 30;
+    display: none;
+    margin-left:-118px; 
+    margin-top:  -95px;
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+}
+#btn1{
+    border: 0;
+    color: #fff;
+    background-color: #25C6FC;
+    display: inline-block;
+    margin-right: 7px;
+    padding: 3px;
+    width: 88px;
+    height: 32px;
+    border-radius: 5px;
+
+}
+#btn2{
+    border: 0;
+    color: #fff;
+    background-color: rgb(255, 60, 60);
+    display: inline-block;
+    margin-left: 7px;
+    padding: 3px;
+    width: 88px;
+    height: 32px;
+    border-radius: 5px;
+}
+#allBlack{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:19;
+    background-color: rgba(55, 55, 55, 0.5);
+    display: none;
+}
+/* .fixedimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    position: relative;
+    top: 0;
+} */
+.fixedimg img{
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    top: 80.5%;
+    left: 85%;
+    border: #CFCFCF 1px solid;
+}
+
+
+
+
+
+

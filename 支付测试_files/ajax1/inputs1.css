@@ -1,0 +1,9 @@
+#inputs1{
+    width: 200px;
+    height: 200px;
+    border: #ccc 1px solid;
+    margin: 200px auto;
+}
+input{
+    display: block;
+}

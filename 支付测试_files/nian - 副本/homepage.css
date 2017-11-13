@@ -1,0 +1,101 @@
+html{
+    font-size: 65%;
+}
+.bGcolors{
+    height: 100%;
+    background-color: #F2F2F2;
+}
+.head-top,
+.wrap{
+    background-color: #fff;
+}
+.head-center{
+    width: 100%;
+    height: auto;
+}
+.head-bottom{
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.part1{
+margin-top: 10px;
+background-color: #fff;
+}
+input:focus{
+    outline: none;
+}
+.head-top{
+    padding:1rem 0;
+    position: relative;
+}
+.inputstext1{
+    height: 26px;
+    margin-left: 2.5%;
+    width: 95%;
+    border-radius: 13px;
+    padding-left: 30px;
+    border: 1px solid #DEDEDE;
+}
+.search{
+    width: 24px;
+    height: auto;
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    margin-left: -15px;
+}
+.childs,
+.member,
+.cards,
+.gifi{
+width: 25rem;
+height: auto;
+}
+.section{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.groom{
+    margin: 10px 0;
+}
+.grooms1{
+  color: #5EA626;
+  font-size: 16px;
+  border-left: 2px solid #5EA626;
+}
+.more{
+    color: #FF815D;
+}
+.jpg2{
+    width: 25rem;
+    height: auto;  
+}
+.vegetables,
+.tickets{
+    height: 40px;
+}
+.advert{
+    color: #9B9B9B;
+    font-size: 12px;
+    height: 24px;
+}
+.val1{
+    color: #FF701E;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.cars1{
+    width:25px;
+    height: auto;
+}
+.img .homes{
+    color: #5EA626;
+    font-size: 12px;
+    display: block;
+}
+
+
+
+
+
+

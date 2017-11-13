@@ -1,0 +1,14 @@
+//弹层显示
+$('.btn1').click(function(){
+    $('.all').show();
+    $('.box2').show();
+})
+//弹层隐藏
+$('.delects').click(function(){
+    $('.all').hide();
+    $('.box2').hide();
+})
+//字体变红
+$('.btn2').click(function(){
+    $('.btn2').css({"color":"red"})
+})

@@ -1,0 +1,20 @@
+#ulList li{
+    list-style: none;
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px;
+}
+#ulList2 li{
+    list-style: none;
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px;
+}
+
+  

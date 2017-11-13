@@ -1,0 +1,7 @@
+#box{
+    background-color:black;
+    width: 160px;
+    height: 160px;
+    border: solid 40px black;
+    color: #fff;
+}

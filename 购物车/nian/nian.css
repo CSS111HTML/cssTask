@@ -1,0 +1,97 @@
+html{
+    font-size: 65%;
+}
+/* .wrap{
+
+} */
+.head-center{
+    width: 100%;
+    height: auto;
+}
+input:focus{
+    outline: none;
+}
+.head-top{
+    width: 90%;
+    
+    margin: 0 auto;
+    position: relative;
+}
+.inputstext1{
+    height: 26px;
+    margin:1rem 0;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(169, 169, 169)
+}
+.search{
+    width: 26px;
+    height: auto;
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    margin-left: -15px;
+}
+.childs,
+.member,
+.cards,
+.gifi{
+width: 25rem;
+height: auto;
+}
+.section{
+    width: 100%;
+}
+.groom{
+    margin: 10px 0;
+}
+.grooms1{
+  color: #5EA626;
+  font-size: 16px;
+  border-left: 2px solid #5EA626;
+}
+.more{
+    color: #FF815D;
+}
+.jpg2{
+    width: 25rem;
+    height: auto;  
+}
+.vegetables,
+.tickets{
+    height: 40px;
+}
+.advert{
+    color: #9B9B9B;
+    font-size: 12px;
+    height: 24px;
+}
+.val1{
+    color: #FF701E;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.cars1{
+    width:25px;
+    height: auto;
+}
+.icon{
+    width: 30px;
+    display: block;
+    height: auto;
+}
+.homes{
+    color: #5EA626;
+    font-size: 12px;
+    display: block;
+}
+.sorts,
+.carstext,
+.my{
+    font-size: 12px;
+    display: block;
+    color: #000;
+}
+.lasticon{
+    text-align: center;
+}

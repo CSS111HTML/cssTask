@@ -1,0 +1,44 @@
+.bGcolor{
+    height: 100%;
+    background-color:#EFEFEF;
+}
+.vatable1{
+    height: 42px;
+    line-height: 42px;
+}
+.pic12,
+.pic13{
+    height: 60px;
+    width: 60px;
+}
+.vatable2{
+    background-color: #fff;
+    height: 60px;
+    border-bottom: 1px solid #EFEFEF;
+    border-top: 1px solid #E8E8E8;
+}
+.vatable2 span{
+    padding-left: 10px;
+    font-size: 16px;
+    color: #3D3D3D;
+}
+.vatable3{
+    border-bottom: 1px solid #E8E8E8;
+}
+.actives{
+    height: 42px;
+    background-color: #EFEFEF;
+    line-height: 42px;
+}
+.sorts,
+.carstext,
+.my{
+    font-size: 12px;
+    display: block;
+    color: #000;
+}
+.icon{
+    width: 30px;
+    display: block;
+    height: auto;
+}

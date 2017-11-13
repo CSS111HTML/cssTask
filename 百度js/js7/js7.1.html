@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js7</title>
+</head>
+<body>
+        <form action="demo-form.php">
+    <div>
+        用户名：<input type="text" id="inputT" required="required" onblur="Text()">
+        <p id="pText"></p>
+    </div>
+    <div>
+        <!-- 密码 -->
+        密码<input type="password" id="inputPw" required="required" onblur="Pw()">
+        <p id="pPw"></p>
+    </div>
+    
+    <div>
+        <!-- 密码验证 -->
+       
+        再次输入<input type="password" id="inputPW" required="required" onblur="Pw()">
+        <p id="pPW"></p>
+    </div>
+    
+    <div>
+            邮箱<input type="email" id="inputEmail" required="required" onblur="Emails()">
+            <p id="pEmails"></p>
+    </div>
+    
+    <div>
+            电话<input type="tel" id="inputTel" required="required" onblur="Tel()">
+            <p id="pTel"></p>
+    </div>
+    
+    <div>
+            <input type="submit" id="inputSub">
+    </div>
+
+    在校学生<input type="radio" name="human" id="school" checked="checked">
+    社会人员<input type="radio" name="human" id="society" >
+    <select name="human">
+        <option value="北京">北京</option>
+        <option value="上海">上海</option>
+        <option value="福州" selected="selected">福州</option>
+    </select>
+    <select name="human">
+            <option value="北京">北京</option>
+            <option value="上海">上海</option>
+            <option value="福州" selected="selected">福州</option>
+        </select>
+
+          </form>
+    
+    <script src="js7.js"></script>
+</body>
+</html>

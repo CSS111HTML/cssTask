@@ -1,0 +1,133 @@
+@charset "UTF-8";
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body,button,input,select,textarea{font-family:Helvetica,STHeiti,"Microsoft Yahei",simsun,Tahoma,sans-serif;line-height:1.5}
+html{-webkit-text-size-adjust:100%}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+i,em{font-style:normal}
+ul,ol{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:none;color:#fa6f17;}
+fieldset,img{border:0}
+button,input,select,textarea{font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*zoom:1}
+body{background:#fafafa;}
+
+/*header*/
+.qipai-header{height:59px;border-bottom:1px solid #c2c1c1;background:#fff;}
+.qipai-header .header-wrap{width:1070px;margin:0 auto;position:relative;height:100%;}
+.qipai-header .header-l{float:left;}
+.qipai-header .header-l .logo-qipai{background-image:url(http://game.gtimg.cn/images/qipai/web201605/images/908857.png);width:132px;height:35px;float:left;margin-top:10px;margin-right:50px;position:relative;}
+.qipai-header .header-l .logo-qipai a{display:block;font-size:0;text-indent:-999em;height:100%;}
+.qipai-header .header-l .logo-qipai:after{content:'';background:#848585;width:1px;height:25px;float:right;position:absolute;right:-27px;top:7px;}
+.qipai-header .header-l .slogen{float:left;width:300px;margin-top:5px;}
+.qipai-header .header-l .slogen .slogen-icon{background-image:url(http://game.gtimg.cn/images/qipai/web201605/images/908926.png);width:75px;height:49px;float:left;margin-right:10px;}
+.qipai-header .header-l .slogen strong{color:#f96d13;font-weight:normal;display:block;font-size:17px;}
+.qipai-header .header-l .slogen a{display:block;color:#424343;font-size:13px;}
+.qipai-header .header-l .slogen a:hover{color:#fa6f17;}
+.qipai-header .header-r{font-size:13px;float:right;width:400px;text-align:right;margin-top:20px;}
+.qipai-header .header-r ul li{display:inline;padding:0px 12px;border-right:1px solid #ddd;}
+.qipai-header .header-r ul li:last-of-type{border:none;}
+.qipai-header .header-r ul li a{color:#706f6f;}
+.qipai-header .header-r ul li a:hover{color:#fa6f17;}
+.qipai-header .header-hov{z-index:99;position:relative;}
+.qipai-header .header-hov ul{display:none;}
+.qipai-header .header-hov ul.show{display:block;}
+.qipai-header .header-hov .bbs{position:absolute;right:0px;top:43px;font-size:12px;background:#fff;border:1px solid #ddd;-webkit-border-radius:5px;border-radius:5px;}
+.qipai-header .header-hov .bbs li{height:30px;line-height:30px;}
+.qipai-header .header-hov .bbs li a{color:#706f6f;display:block;padding:0px 10px;}
+.qipai-header .header-hov .bbs li a:hover{color:#fa6f17;}
+
+/*modbox*/
+.modbox{background:#fff;border:1px solid #e7e7e7;-webkit-border-radius:10px;border-radius:10px;margin-bottom:15px;}
+.modbox .modbox-tit{border-bottom:1px solid #e7e7e7;}
+.modbox .modbox-tit .more{float:right;color:#888;line-height:57px;margin-right:30px;font-size:14px;}
+.modbox .modbox-tit .more:hover{color:#fa6f17;}
+.modbox .modbox-tit .more i{background-image:url(http://game.gtimg.cn/images/qipai/web201605/images/909200.png);width:17px;height:17px;display:inline-block;vertical-align:text-bottom;margin-right:5px;}
+.modbox .modbox-tit strong{height:57px;line-height:57px;color:#888;font-weight:normal;font-size:20px;text-indent:1em;display:block;}
+.modbox .modbox-con{padding-top:30px;}
+.modbox .modbox-con .newspic{padding-left:23px;}
+.modbox .modbox-con .newspic img{width:308px;height:123px;}
+.modbox .modbox-con .newslst{padding-bottom:30px;border-bottom:1px solid #e7e7e7;padding-left:23px;padding-right:23px;}
+.modbox .modbox-con .newslst li{color:#888;height:45px;line-height:45px;}
+.modbox .modbox-con .newslst li a{color:#888;border-bottom:1px dashed #eee;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.modbox .modbox-con .newslst li a:hover{color:#fa6f17;}
+.modbox .modbox-con .newslst li:last-child a{border:none;}
+.modbox .modbox-con .relgame{margin-right:-50px;height:130px;margin-left:-13px;}
+.modbox .modbox-con .relgame li{float:left;width:140px;margin-right:-20px;text-align:center;}
+.modbox .modbox-con .relgame li a span{color:#888;font-size:14px;display:block;}
+.modbox .modbox-con .relgame li img{width:70px;height:70px;}
+
+/*qrcode*/
+.box-qrcode{overflow:hidden;}
+.box-qrcode .box-qrcode-l{float:left;margin-right:-30px;margin-top:43px;margin-left:17px;}
+.box-qrcode .box-qrcode-r{float:right;margin-top:34px;margin-right:-9px;}
+
+/*bot help*/
+.bot-help{clear:both;width:1070px;margin:0 auto;position:relative;padding-top:60px;padding-bottom:60px;}
+.bot-help ul{text-align:center;}
+.bot-help ul li{text-align:center;display:inline-block;width:250px;vertical-align:top;cursor:pointer;}
+.bot-help ul li .icon-tel{background-image:url(http://game.gtimg.cn/images/qipai/web201605/images/910427.png);display:block;width:93px;height:94px;}
+.bot-help ul li strong{font-weight:normal;display:block;margin-bottom:12px;}
+.bot-help ul li p{font-size:12px;}
+.bot-help ul li i,.bot-help ul li a{display:block;margin:0 auto;margin-bottom:12px;}
+.bot-help ul li .icon-bbs{background-image:url(http://game.gtimg.cn/images/qipai/web201605/images/910434.png);width:93px;height:93px;}
+.bot-help ul li .icon-faq{background-image:url(http://game.gtimg.cn/images/qipai/web201605/images/910440.png);width:93px;height:93px;}
+.bot-help ul li .icon-wex{background-image:url(http://game.gtimg.cn/images/qipai/web201605/images/910447.png);width:91px;height:91px;}
+.bot-help .box-qrcode{width:220px;position:absolute;right:140px;top:20px;height:150px;display:none;}
+.bot-help .box-qrcode.show{display:block;visibility:hidden;}
+.bot-help .box-qrcode-l{display:none;}
+.bot-info{background:#232221;color:#5b5a5f;height:83px;line-height:83px;text-align:center;font-size:12px;}
+.bot-info p span{margin-left:10px;margin-right:10px;}
+
+/*download tip*/
+.download-tip{position:absolute;height:48px;line-height:48px;background:#fff;border:2px solid #fa6f17;}
+.download-tip a:after{content:'';width:1px;height:30px;background:#ddd;margin-top:9px;display:inline-block;vertical-align:middle;position:absolute;right:0px;}
+.download-tip a:last-child:after{content:none;}
+.download-tip .download-tip-btn{color:#888;display:block;width:148px;float:left;text-align:center;position:relative;}
+.download-tip .download-tip-btn i{display:inline-block;vertical-align:sub;margin-right:5px;}
+.download-tip .download-tip-btn .icon-color-ios{background-image:url(http://game.gtimg.cn/images/qipai/web201605/images/917284.png);width:17px;height:22px;}
+.download-tip .download-tip-btn .icon-color-and{background-image:url(http://game.gtimg.cn/images/qipai/web201605/images/917293.png);width:19px;height:22px;}
+
+/*foot-cpright*/
+.foot{background:#000;padding:0 20px;color:#494949;font-size:12px;}
+.foot-cpright{padding:15px 0;overflow:hidden;}
+.foot-sprt{margin:0 2px;_margin:0 0}
+.foot-logos-game{display:block;width:180px;height:35px;text-indent:-999em;overflow:hidden;margin:10px 0 0 10px;background:url("http://ossweb-img.qq.com/images/sy/template2014/foot-light.png");}
+.foot-dark .foot-logos-game{background:url("http://ossweb-img.qq.com/images/sy/template2014/foot-dark.png");}
+.foot-light .foot-logos-game{background:url("http://ossweb-img.qq.com/images/sy/template2014/foot-light.png");}
+.foot .container .foot-cpright .f-left{float:left;}
+
+/*foot-info*/
+.foot-info{padding:50px 0;letter-spacing:-4px;word-spacing:-4px;font-size:0;}
+.foot-info li{display:inline-block;*display:inline;zoom:1;vertical-align:top;letter-spacing:normal;word-spacing:normal;font-size:14px}
+.foot-info .gzweixin{width:255px;padding-right:60px}
+.foot-info .tips{width:325px;padding-right:60px}
+.foot-info .coop{width:260px;}
+.foot-info .coop-list li{display:block;}
+.foot-links{width:720px;float:right;}
+.foot-links a{color:#494949}
+
+/*bot-pop*/
+.bot-pop{position:fixed;width:100%;height:100%;left:0px;top:0px;z-index:999;display:none;}
+.bot-pop-show{display:block;}
+.bot-pop .full-overlay{position:absolute;height:100%;width:100%;left:0;top:0;opacity:0.7;display:block;background-color:rgb(17,17,17);}
+.bot-pop .bot-pop-con{position:absolute;left:50%;position:fixed;display:block;visibility:visible;z-index:9999;left:50%;top:50%;margin-top:-104.5px;margin-left:-250px;width:500px;background:#1b1a18;color:#fff;}
+.bot-pop .bot-pop-close{background-image:url(http://game.gtimg.cn/images/qipai/web201605/images/437330.png);width:40px;height:40px;display:block;position:absolute;right:-50px;top:0px;background-repeat:no-repeat;border:1px solid #ddd;background-position:center;background-color:rgba(250,113,26,0.3);}
+.bot-pop .bot-pop-close:hover{}
+.bot-pop .bot-pop-con-l{float:left;}
+.bot-pop .bot-pop-con-l img{width:130px;height:130px;margin:30px;display:block;}
+.bot-pop .bot-pop-con-r{overflow:hidden;padding-top:30px;margin-left:170px;margin-right:20px;}
+.bot-pop .bot-pop-con-r h4{font-weight:normal;font-size:18px;line-height:2;margin-bottom:10px;}
+.bot-pop .bot-pop-con-r ol{font-size:14px;}
+.bot-pop .bot-pop-con-r ol a,.bot-pop .bot-pop-con-r ol b{color:#fa711a;font-weight:normal;}
+
+/* new foot */
+#footer_ied{background:#171615;color:#5b5a5f;text-align:center;padding-top:20px;padding-bottom:10px;line-height:1.5;font-size:12px;}
+#footer_ied a{color:#5b5a5f;}
+
+/*page*/
+.page{font-size:12px;color:#fa6f17;text-align:center;overflow:hidden;clear:both;padding-top:52px;padding-bottom:20px;}
+.page a{color:#fa6f17;margin-right:10px;cursor:pointer;}
+.page a:hover{text-decoration:underline;}

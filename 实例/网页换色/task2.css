@@ -1,0 +1,34 @@
+ul li{
+    display:inline-block;
+    padding: 0 20px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    color: white;
+}
+ul{
+    font-size: 0;
+}
+#red{
+    width: 5px;
+    margin-right: 10px;
+    border: 5px red solid;
+    background-color: red;
+    height:5px;
+    display: inline-block;
+}
+#grey{
+    width: 5px;
+    height:5px;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: grey;
+    border: 5px grey solid;
+}
+#green{
+    width: 5px;
+    height:5px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 5px green solid;
+    background-color: green;
+}

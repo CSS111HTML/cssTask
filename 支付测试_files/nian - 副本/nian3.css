@@ -1,0 +1,49 @@
+.pic22{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+#wrap .border1{
+    border-bottom:#80B028 2px solid;
+    color: #80B028;
+}
+#wrap li{
+    /* width: 300px; */
+    /* background-color: #ccc; */
+    display: none;
+    font-size: 14px;
+}
+#wrap{
+    font-size: 0;
+}
+#default,
+#new1,
+#sales{
+    height: 36px;
+    font-size: 14px;
+    width: 33.33%;
+    background-color:#fff;
+    border: 0;
+}
+#new1{
+    border-left: #A9AAAA 1px solid;
+    border-right: #A9AAAA 1px solid;
+}
+#wrap .one{
+    display: block;
+}
+input:focus{
+    outline: none;
+}
+#wrap ul{
+    padding-left:0; 
+}
+ul li{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 60px;
+}

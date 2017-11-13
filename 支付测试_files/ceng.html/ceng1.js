@@ -1,0 +1,22 @@
+$('#btn').click(function(){
+    $('#inputs').show();
+    $('#allSCreen').show();
+});
+$('.btns3').click(function(){
+    $('#inputs2').show();
+    $('#allSCreen').hide();
+    $('#allSCreen2').show();
+});
+$('#btns2').click(function(){
+    $('#inputs3').show();
+    $('#allSCreen2').hide();
+    $('#allSCreen3').show();
+});
+$('#btns1').click(function(){
+    $('#inputs2').hide();
+    $('#allSCreen2').hide();
+})
+$('#btns4').click(function(){
+    $('#inputs3').hide();
+    $('#allSCreen3').hide();
+})

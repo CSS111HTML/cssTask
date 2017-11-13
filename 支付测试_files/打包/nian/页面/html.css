@@ -1,0 +1,20 @@
+.vatable1{
+    height: 40px;
+    background-color: #EFEFEF;
+    line-height: 40px;
+}
+.pic12,
+.pic13{
+    height: 60px;
+    width: 60px;
+}
+.vatable2{
+    background-color: #fff;
+    height: 60px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.actives{
+    height: 80px;
+    background-color: #EFEFEF;
+    line-height: 80px;
+}

@@ -1,0 +1,146 @@
+html{
+    font-size: 65%;
+}
+.header-top{
+    font-size: 1.6rem;
+    color: #EC7A22;
+    font-weight: bold;
+    /* border-bottom:rgba(35, 93, 150, 0.7) solid 1px; */
+}
+.header-top .cc{
+    height: 3rem;
+    line-height: 3rem;
+}
+/* .main{
+margin-top: 2rem;
+} */
+.header-bottom{
+    height: 14rem;
+    line-height: 14rem;
+    /* border-bottom:rgba(35, 93, 150, 0.3) solid 1px; */
+}
+.back-pic img{
+    /* background:url(http://www.xueyuplus.com/static/seller/pay_pc_files/logo_new.png) no-repeat; */
+    height: 7.5rem;
+    width: 7.5rem;
+     
+}
+.collect{
+    font-size: 3rem;
+    /* font-weight: bold; */
+    color: rgba(35, 93, 150, 1);
+}
+.quote{
+    margin:4rem 0;
+    height: 3rem;
+    width: 100%;
+    background-color:rgba(35, 93, 150, 0.7); 
+    line-height:30px;
+}
+.quote span{
+    display: inline-block;
+    color:#fff;
+    font-size: 1.6rem;
+}
+.border1{
+    border-right: 2px rgba(35, 93, 150, 0.4) dashed; 
+}
+.message1{
+   height:  6rem;
+}
+.bg-color1{
+    height: 3rem;
+    background-color:rgba(35, 93, 150, 0.75);
+    font-weight: bold;
+    color: #ffF;
+    font-size: 1.6rem;
+    display: inline-block;
+    line-height: 3rem;
+    border-radius: 5px;
+    padding:0 1rem;
+}
+.money2{
+    margin:3rem 0;
+    height: 4rem;
+    font-weight: bold;
+}
+.payfor{
+    margin-top: 3rem;
+}
+.margins{
+    margin-bottom: 2rem;
+}
+.Sub{
+    color: #fff;
+    border-radius:5px;
+    background-color: #EC7A22;
+    border: 0;
+    padding:5px 15px;
+}
+
+@media screen and (min-width:401px) and (max-width:500px){
+    html{
+        font-size: 30%;
+    }
+    .border1{
+        border-right: none;
+    }
+    .header-bottom{
+        height: 12rem;
+        line-height: 12rem;
+    }
+    .quote{
+        margin: 1rem 0;
+        height: 3rem;
+        width: 100%;
+        background-color:rgba(35, 93, 150, 0.7); 
+        line-height:30px;
+    }
+    .money2{
+        margin-top: 1rem;
+        height: 2rem;
+        font-weight: bold;
+    }
+    .payfor{
+        margin-top:0;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (min-width:320px) and (max-width:400px){
+    html{
+        font-size: 30%;
+    }
+    .border1{
+        border-right: none;
+    }
+    .header-top .cc{
+        font-size: 1.4rem;
+        /* height: rem;
+        line-height: 10rem;; */
+    }
+    .quote{
+        margin: 1rem 0;
+        height: 3rem;
+        width: 100%;
+        background-color:rgba(35, 93, 150, 0.7); 
+        line-height:30px;
+    }
+    .header-bottom{
+        height: 10rem;
+        line-height: 10rem;
+    }
+    .message1{
+        margin-top: 1rem;
+        height: 2rem;
+     }
+     .money2{
+        margin-top: 1rem;
+        height: 2rem;
+        font-weight: bold;
+    }
+    .payfor{
+        margin-top:0;
+        margin-bottom: 1rem;
+    }
+}
+

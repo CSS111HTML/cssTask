@@ -1,0 +1,29 @@
+.wrap{
+    height: 600px;
+    margin: 0 20%;
+    background-color: ghostwhite;
+
+}
+.header{
+    text-align: center;
+   
+}
+.img1{
+    height: 100px;
+    width: auto;
+}
+.row1{
+    border-top: 1px solid #ccc;
+} 
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+/* .name{
+    width: 200px;
+} */

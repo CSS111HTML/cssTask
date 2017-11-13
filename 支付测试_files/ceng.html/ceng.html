@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>弹层</title>
+    <link rel="stylesheet" href="ceng.css">
+</head>
+<body>
+    <button id="btn">弹出层</button>
+    <div id="inputs">
+        <div class="aligns">
+                <input type="text" placeholder="请填写收款人" class="textstyles">
+                <input type="text" placeholder="请填写手机号" class="textstyles">
+                <input type="text" placeholder="请填写收款卡号" class="textstyles">
+                <input type="text" placeholder="请填写收款银行" class="textstyles">
+                <input type="number" placeholder="请填写金额" class="textstyles">
+                <select class="selecteds">
+                    <option value="私户">私户</option>
+                    <option value="公户">公户</option>
+                </select>
+                <select>
+                    <option value="借记卡">借记卡</option>
+                    <option value="信用卡">信用卡</option>
+                </select>
+                <textarea placeholder="请填写备注" class="remark"></textarea>
+                <button class="btns3 btn_blue" id="btns3">
+                    <span class="btns1">确定</span>
+                </button>
+                
+                
+        </div>
+    </div>
+    <div id="allSCreen"></div>
+    <div id="allSCreen2"></div>
+    <div id="allSCreen3"></div>
+    <div id="inputs2">
+        <div class="inputs2head">
+            <span>验证码</span>
+            <button id="btns1">x</button>
+        </div>
+        <input type="text" placeholder=" 请填写短信验证码" class="inputs2text2">
+        <button id="btns2">确认</button>
+    </div>
+    <div id="inputs3">
+        <div class="inputs3head">
+            <span>信息</span>
+            <button id="btns4">x</button>
+            
+        </div>
+        <p>验证码错误超过3次，该订单废弃</p>
+        <button class="btns5">确认</button>
+    </div>
+
+    <script src="../jquery-3.2.1.js"></script>
+    <!-- <script src="ceng.js"></script> -->
+    <script src="ceng1.js"></script>
+</body>
+</html>

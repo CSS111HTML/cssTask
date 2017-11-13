@@ -1,0 +1,116 @@
+html{
+    font-size: 65%;
+}
+/* .wrap{
+
+} */
+.head-center{
+    width: 100%;
+    height: auto;
+}
+input:focus{
+    outline: none;
+}
+.head-top{
+    margin: 0 auto;
+    position: relative;
+}
+.inputstext1{
+    height: 26px;
+    margin:1rem 0;
+    width: 100%;
+    border-radius: 13px;
+    border: 1px solid #DEDEDE;
+    /* box-shadow:0 0 5px #ccc; */
+}
+.search{
+    width: 24px;
+    height: auto;
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    margin-left: -15px;
+}
+.childs,
+.member,
+.cards,
+.gifi{
+width: 25rem;
+height: auto;
+}
+.section{
+    width: 100%;
+}
+.groom{
+    margin: 10px 0;
+}
+.grooms1{
+  color: #5EA626;
+  font-size: 16px;
+  border-left: 2px solid #5EA626;
+}
+.more{
+    color: #FF815D;
+}
+.jpg2{
+    width: 25rem;
+    height: auto;  
+}
+.vegetables,
+.tickets{
+    height: 40px;
+}
+.advert{
+    color: #9B9B9B;
+    font-size: 12px;
+    height: 24px;
+}
+.val1{
+    color: #FF701E;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.cars1{
+    width:25px;
+    height: auto;
+}
+.icon{
+    width: 24px;
+    height: auto;
+    margin: 0 auto 3px;
+    display: block;
+}
+.sorticon{
+    height: 20px;
+    width: 28px;
+    margin-top:3px;     
+    margin-bottom: 5px;
+}
+.carsicon{
+    margin-bottom: 4px;
+}
+.homes{
+    color: #5EA626;
+    font-size: 12px;
+    display: block;
+}
+.sorts,
+.carstext,
+.my{
+    font-size: 12px;
+    display: block;
+    color: #000;
+}
+.lasticon{
+    text-align: center;
+}
+.bottom{
+    padding-top: 3px;
+    height: 50px;
+    background-color: #FAFAFA;
+    border-bottom: #E8E8E8 1px solid;
+    border-top: #E8E8E8 1px solid;
+}
+.bottom .img{
+    border-right:#E8E8E8 1px solid; 
+}

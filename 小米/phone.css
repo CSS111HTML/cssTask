@@ -1,0 +1,125 @@
+.toppic{
+    height: 120px;
+    width: 100%;
+    background:url(image/toppic.jpg) no-repeat;
+    background-size: cover;
+}
+.contain{
+    width: 1226px;
+    margin: 0 auto;
+}
+.nav1{
+    height: 40px;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listleft,
+.listright{
+margin: 0;
+}
+.listright{
+    padding-right: 30px;
+}
+.nav1 .listleft li,
+.nav1 .listright li{
+    list-style: none;
+    color: #ccc;
+    display: inline;
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
+}
+.listleft li:last-child,
+.listright li:last-child{
+    border:none;
+}
+.listright li:last-child{
+    border:none;
+    background-color:#424242;
+    position:relative;
+    top: 0px;
+    left: -5px;
+    padding: 12px 30px;
+}
+.headerNav{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerNav img{
+    height: 55px;
+    width: 55px;
+}
+
+.list2{
+    list-style: none;
+}
+.list2 li{
+    display: inline;
+    padding: 0 10px;
+    font-weight: bold;
+}
+.input{
+   font-size: 0;
+   display: inline-block;
+}
+[type="text"]{
+    height: 50px;
+    width: 244px;
+    border: 1px solid #ccc;
+    border-right: 0; 
+    font-size: 14px;
+}
+[type="button"]{
+    padding-bottom: 19px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+ 
+}
+.viewport{
+    height: 460px;
+    width: 100%;
+    background:url(image/mainpic.jpg);
+
+}
+.side-category{
+    width: 236px;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+.list3 li{
+    list-style: none;
+    padding:14px 0;
+    color: #fff;
+}
+.list3 li:first-child{
+    padding-top: 30px;
+}
+.list3 li:last-child{
+    padding-bottom:30px;
+}
+.selected{
+    display: inline-block;
+    width: 236px;
+    height: 170px;
+    background-color: #ccc;
+    float: left;
+}
+.sub-hero img{
+    width: 327px;
+    padding-left:15px;
+    height: 170px;
+}
+.sub-hero img:last-child{
+    width: 328px;
+}
+.sub-hero{
+    margin: 15px 0;
+    height: 170px;
+}

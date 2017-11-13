@@ -45,21 +45,13 @@ voteBtn.onclick=function cc(){
             i=i+1;
             voteBtn.value="隐藏并传给"+(i+1)+"号"
         } else {
-                voteBtn.value="法官查看"
-                if(i=headvalNum.length-1){
-                     voteBtn.onclick=function(){
-                        location.href="task4.1.html"
-                    }
-                    
+            voteBtn.value="法官查看"
+            if(i=headvalNum.length-1){
+                    voteBtn.onclick=function(){
+                    location.href="task4.1.html"
                 }
                 
-            // voteBtn.value="法官查看"
-            // window.location.href="task7.1.html"
-            // window.location.href="task7.1.html"
-            // pic.style.display="none";
-            // wrapper.style.display="block";
-            // textRole.innerHTML=headvalNum[i]
-            // num.value=i+1;
+            }
         }        
         flag=true
     } 

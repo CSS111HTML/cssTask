@@ -1,0 +1,65 @@
+.btn1,
+.btn2{
+    background-color: #fff;
+    border:#d1d1d1 1px solid;
+    padding: 10px 0;
+    border-radius: 10px;
+    outline: none;
+}
+.btn1:focus,
+.btn2:focus{
+    outline: none;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+.all{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(51, 51, 51, 0.3);
+    z-index: 10;
+    display: none;
+}
+.box2{
+    padding: 20px 30px;
+    width: 20%;
+    margin-top: -100px;
+    margin-left: -10%;
+    position: fixed;
+    left: 50%;
+    bottom: 40%;
+    height: 200px;
+    background-color: #fff;
+    z-index: 20;
+    display: none;
+}
+.box2 div{
+    font-size: 16px;
+    margin: 20px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.box2 img{
+    width: 143px;
+    margin: 0 auto;
+    display: block;
+}
+.box2 .delects{
+    cursor: pointer;
+}
+.pic5,
+.pic6{
+    width: 100%;
+}
+.pic5 img,
+.pic6 img{
+    width: 100%;
+    height: 100%;
+}
+.sider-box{
+    padding: 25px;
+ }

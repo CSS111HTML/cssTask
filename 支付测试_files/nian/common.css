@@ -1,0 +1,58 @@
+.bottom{
+    padding-top: 3px;
+    height: 50px;
+    background-color: #FAFAFA;
+    border-bottom: #E8E8E8 1px solid;
+    border-top: #E8E8E8 1px solid;
+}
+button:focus{
+    outline: none;
+}
+.bottom .img{
+    border-right:#E8E8E8 1px solid; 
+}
+.icon{
+    width: 24px;
+    height: auto;
+    margin: 0 auto 3px;
+    display: block;
+}
+.carsicon{
+    margin-bottom: 4px;
+    position: relative;
+}
+.redcircle{
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #FF701E;
+    color: #fff;
+}
+/* {
+    color: #000;
+    font-size: 12px;
+    display: block;
+} */
+.homes,
+.sorts,
+.carstext,
+.my{
+    color: #000;
+    font-size: 12px;
+    display: block;
+}
+.lasticon{
+    text-align: center;
+}
+.sorticon{
+    height: 20px;
+    width: 28px;
+    margin-top:3px;     
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: none !important;
+}
