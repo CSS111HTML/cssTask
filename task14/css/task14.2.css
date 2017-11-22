@@ -5,7 +5,8 @@
       margin-top: -40px; } }
 
 .pic1-1 {
-  flex: 1 1 auto; }
+  height: auto;
+  width: 100%; }
 
 .middle {
   background-color: #fafafa;
@@ -154,6 +155,7 @@ ul {
   .tudou-company .text3 {
     text-indent: 30px;
     padding-bottom: 16px;
-    margin-right: 60px; }
+    margin-right: 60px;
+    margin-left: 60px; }
 
 /*# sourceMappingURL=task14.2.css.map */

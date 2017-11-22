@@ -4,29 +4,37 @@
         <title>
             杀人游戏
         </title>
-        <link rel="stylesheet" href="js2.css">
+        <!-- <link rel="stylesheet" href="js2.css"> -->
         <meta charset="utf-8">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="js2.css">
     </head>
     <body>
-       
+        <div id="wrapbig" class="container">
             <div class="header">
                 杀人游戏
             </div>
                 <div class="wrap">
-                    <form id="form1" name="form1">
-               <span>人数： 　<input type="type" id="headcount" ></span>
+                    
+               <div>人数： 　<input type="type" id="headcount" ></div>
             
            
-                <span>杀手人数:<input type="text" id="numkill"></span>
+                <div>杀手人数:<input type="text" id="numkill"></div>
            
           
-                <span>水民人数:<input type="text" id="numpeasent" ></span>
+                <div>水民人数:<input type="text" id="numpeasent" ></div>
             
-                <button id="numBtn">开始</button>
-                    </form>
+                <div id="footer">
+                        <button id="numBtn">开始</button>
+                </div>
+                   
+
             </div>
+           
             
-            
+        </div>    
+        <script src="../jquery/jquery-3.2.1.js"></script>
+       <script src="../bootstrap/js/bootstrap.js"></script>     
     <script src="js2.js"></script>
     </body>
 </html>

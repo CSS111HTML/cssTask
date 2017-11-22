@@ -1,0 +1,50 @@
+
+body{
+    margin: 0;
+}
+#wrap1{
+    background-color: grey;
+    /* display: none; */
+}
+#header,
+#toupiao{
+    border: 1px solid red;
+    margin: 10px 10%;
+    height: 30px;
+    width: 80%;
+    background-color: white;
+}
+.one{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 50px 100px;
+    border: 1px solid blue;
+}
+#wrap2{
+    background-color: greenyellow;
+}
+#wrap3 div{ 
+ height: 40px;
+ width: 80%;
+ margin: 10px 10%;
+ background-color: white;
+ text-align: center;
+ line-height: 40px;
+}
+.kill{
+    line-height: 40px;
+    text-align: center;
+    height: 60px;
+    width: 90%;
+    margin: 40px auto;
+    border: 1px solid red;
+}
+#btn1,
+#btn2{
+    width: 80%;
+    margin: 20px 10%;
+    border: 0;
+    background-color: pink;
+    height: 40px;
+}

@@ -91,15 +91,23 @@ body{
     color: white;
     margin-left: 2rem;
 }
-.content .wrap{
-   width: 33.3%;
-   float: left;
+.wrap{
+   width: 32%;
+   background-color: #fff;
+   display: inline-block;
+   position: relative;
+   margin-top: 140px;
+   /* display: flex;
+   justify-content: center; */
+   /* float: left; */
   
 } 
-.content{
+#content{   
+    margin-top: -50px;
     width: 100%;
     background-color: rgba(41, 189, 224, 1);
 } 
+
 .box{
     height: 80px;
     width: 80px;
@@ -107,15 +115,35 @@ body{
     margin: 4% auto;
     display: none;
 }
-
+.namesnone{
+    background-color: grey;
+}
+.grey{
+    background-color: #83B09A !important;
+}
 .names{
     text-align: center;
+    padding-top: 20px;
     color: rgba(86, 86, 86, 1);
     width: 80px;
     font-size: 18px;
-    line-height: 70px;
     height: 60px;
+    margin: 0 auto;
     background-color: rgba(245, 201, 123, 1);
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    margin-top:-40px;
+    margin-left:-40px;
+}
+.pic4{
+    
+    width:30px;
+    height: 30px;
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    display: none;
 }
 .numbers{
     background-color: rgba(131, 176, 154, 1);
@@ -124,6 +152,8 @@ body{
     height: 20px;
     text-align: center;
     font-size: 16px;
+    position: absolute;
+    top: 60px;
 } 
 .icon{
     z-index: 20;
@@ -143,9 +173,7 @@ body{
    
 } 
 
-
-
-.footer{
+#footer{
     position: fixed;
     bottom: 0;
     left: 0;
@@ -157,7 +185,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.dead{
+#dead{
     line-height: 4.4rem;
     height: 4.4rem;
     text-align: center;

@@ -1,40 +1,55 @@
-$(document).ready(function(){
-    // $("div").html("网页加载完成后给所有的div 输出此句话。");
-  });
+
 var headvalNum = localStorage.getItem("k1"); 
 var headvalNum= JSON.parse(headvalNum);
 var box=document.getElementsByClassName('box');
 var names=document.getElementsByClassName('names');
 var numbers=document.getElementsByClassName('numbers');
-// var content=document.getElementsByClassName('content');
-// var boxnum=[]
-// var c;
-// if(c=1){
-    // content=$(content);
-    (function ab(){
-        for(var i = 0;i < headvalNum.length;i++){
-            // box[i].style.display="block";
-            $('.content').append(
-            '<div class="box">'+
-            '<div class="names">'+headvalNum[i]+'</div>'+
-            '<div class="numbers">'+i+"号"+'</div>'+
-            '</div>'
-          ) 
-            //   $(".names").text(headvalNum[i]);
-            //     console.log(headvalNum)
-                // number.node.value=1+"号";
-                // $().text();
-            //     $(".names").append(headvalNum[i]);
-            // $("#box").append('<div class="numbers">'+i+"号"+'</div>');
-                
-            
-            // names.document.write=headvalNum[i];
-            // console.log(box)
-            // box[i].style.display="block";
-            // console.log(box)
-        }
-    }())
-    
-   
-    // c=1
+var dead=document.getElementById('dead');
+var footer=document.getElementById('footer');
+var section1=document.getElementById('section1');
+var cc=false;
+  function sums(){
+     var content=document.getElementById('content')
+      var divs=document.createElement('div')
+      var topup='';
+      for(var i = 0;i <headvalNum.length;i++){
+        topup+=`
+        <div class="wrap"><div class="names">${headvalNum[i]}
+        <div class="numbers">${i+1}号</div><img src="./img/pic4.png" class="pic4">
+        </div></div>
+        `;
+      }
+      divs.innerHTML=topup;
+      content.appendChild(divs)
+  }  
+  sums();
+  
+  (function (){
+    dead.innerHTML='法官日记';
+    dead.onclick=function(){
+      location.href='task4.4.html'; 
+    }  
+  })()
+
+// $('.names').click(function(){
+//   $(this).addClass('grey');
+// })
+
+// dead.onclick=function(){
+//   location.href='window.history.go(-1)'; 
+// } 
+
+
+
+
+// if(cc=false){
+//   for(var i=1;i<headvalNum.length-1;i+0.5){
+//     var section1=document.getElementById('section1');
+//     var data1[i]=section1.createElement('data1');
+//   }
+// }
+// if(cc=false){
+//   if(i<headvalNum.length){
+
+//   }
 // }

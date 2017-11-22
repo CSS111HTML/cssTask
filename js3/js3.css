@@ -1,12 +1,13 @@
 body{
-    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 .wrap{
-    
+    width:100%;
     background-color: #29bde0;
-    height: 400px;
-    margin: 0 40%;
-    margin-top: 100px;
+    height: 100%;
+    /* margin: 0 40%; */
+    /* margin-top: 100px; */
 }
 #header{
     color: white;
@@ -50,9 +51,9 @@ body{
 }
 #section{
     position: relative;
-    height: 55%;
-    width: 60%;
-    margin: 10% 20%;
+    height: 260px;
+    width: 70%;
+    margin: 10% 15%;
     background-color: #FDEFCC;
 }
 #wrapper{
@@ -63,7 +64,7 @@ body{
     margin-left: -40px;
     margin-top: -40px;
     left: 50%;
-    top: 30%;
+    top: 45%;
     background:url(img/pic2.jpg) no-repeat; 
     height: 80px;
     width: 80px;
@@ -74,14 +75,14 @@ body{
     position: absolute;
     margin-top: -10.5px;
     margin-left: -16px;
-    top: 55%;
+    top: 70%;
     left: 50%;
     font-weight: bold;
     color: #74d4eb;
 }
 #section .pic2 .textRole{
     text-align: center;
-    margin-top: 40px;
+    /* margin-top: 10px; */
 }
 #section #pic{
     display: none;
@@ -102,7 +103,7 @@ body{
     width: 60%;
     height: 40px;
     background-color: #fbb435;
-    margin-top: -20px;
-    margin:0 20%;
+    /* margin-top: -20px; */
+    margin:30px 20%;
     color: white;
 }

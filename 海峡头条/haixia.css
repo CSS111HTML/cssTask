@@ -50,3 +50,4 @@ a:hover{
 .sider-box{
     padding: 15px 16px 10px 20px;
  }
+ #marquee {overflow:hidden;width:850px;height:400px;}

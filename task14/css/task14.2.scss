@@ -8,7 +8,9 @@
     }
 }
 .pic1-1{
-    flex: 1 1 auto;
+    // flex: 1 1 auto;
+    height: auto;
+    width: 100%;
 }
 
 .middle{
@@ -175,6 +177,7 @@
             text-indent: 30px;
             padding-bottom: 16px;
             margin-right: 60px;
+            margin-left:60px;
         }
         
     }
